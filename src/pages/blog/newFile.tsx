@@ -1,21 +1,15 @@
----
 import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
-import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
+import { posts } from "./index.astro";
 
-const posts = (await getCollection("blog")).sort(
-  (b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
-);
----
-
-<!doctype html>
+<Fragment>
 <html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
+<head>
+<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+<style>{`
       main {
         width: 960px;
       }
@@ -83,34 +77,31 @@ const posts = (await getCollection("blog")).sort(
           font-size: 1.563em;
         }
       }
-    </style>
-  </head>
-  <body>
-    <Header />
-    <main>
-      <section>
-        <ul>
-          {
-            posts.map((post) => (
-              <li>
-                <a href={`/blog/${post.slug}/`}>
-                  <img
-                    width={720}
-                    height={360}
-                    src={post.data.heroImage}
-                    alt=""
-                  />
-                  <h4 class="title">{post.data.title}</h4>
-                  <p class="date">
-                    <FormattedDate date={post.data.pubDate} />
-                  </p>
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
-    </main>
-    <Footer />
-  </body>
-</html>
+    `}</style>
+</head>
+<body>
+<Header />
+<main>
+<section>
+<ul>
+{posts
+.sort(
+(a, b) => new Date(a.data.pubDate) - new Date(b.data.pubDate)
+) // Sorts in descending order (newest first)
+.map((post) => (
+<Fragment><li>
+<a href={`/blog/${post.slug}/`}>
+<img width={720} height={360} src={post.data.heroImage} alt="" />
+<h4 class="title">{post.data.title}</h4>
+<p class="date">
+<FormattedDate date={post.data.pubDate} />
+</p>
+</a>
+</li></Fragment>
+))}
+</ul>
+</section>
+</main>
+<Footer />
+</body></html>
+</Fragment>;
