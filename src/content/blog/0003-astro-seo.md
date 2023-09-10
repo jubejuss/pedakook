@@ -22,3 +22,17 @@ Sellise seadistuse peab seega teadma, mis on soovitavad lehe tiitlite, metakirje
 Sitemap on tekstifail, milles on sinu veebilehe alamlehtede nimekiri ja ka avaldamise ajad. Google otsing võtab siit infot ja indekseerib selle abil su lehte.
 
 Astros on selle jaoks [integratsioon ja ka paigaldusjuhis](https://docs.astro.build/en/guides/integrations-guide/sitemap/).
+
+Väga lihtne seadistus, peab lihtsalt ülalpool viidatud juhendile vastavalt installima sitemapi integratsiooni `npx astro add sitemap` ja lisama `astro.config.mjs`faili oma kodulehe aadressi:
+```js
+import { defineConfig } from 'astro/config';
+import mdx from '@astrojs/mdx';
+
+import sitemap from '@astrojs/sitemap';
+
+// https://astro.build/config
+export default defineConfig({
+	site: 'https://pedakook.wtf',
+	integrations: [mdx(), sitemap()],
+});
+```
