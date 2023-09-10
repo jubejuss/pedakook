@@ -1,12 +1,12 @@
 ---
 title: 'Veebilehe *livesse* laskmine'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Sep 10 2023'
+pubDate: 'Sep 10 2023 10:29:00'
 heroImage: '/website-setup.jpg'
 slug: 'veebi-livesse-laskmine'
 ---
 
-Astro, nagu enamus veebigeneraatoreid, genereerib veebis näitamiseks `npm run build` käsuga *dist* folderi, mille sisu võib tõsta oma veebiserverisse ja leht ongi vastaval aadressil kõigile kättesaadav.
+Astro, nagu enamus veebigeneraatoreid, genereerib veebis näitamiseks `npm run build` käsuga *dist* folderi, mille sisu võib tõsta oma veebiserverisse ja leht ongi vastaval aadressil kõigile kättesaadav. Nagu eelmises postituses juttu oli, eeldab see muidugi [node](https://nodejs.org/en) olemasolu arvutis. 
 
 See eeldab oma serveri olemasolu. Ent on ka muid variante – [Cloudflare](https://www.cloudflare.com/en-gb/plans/) näiteks pakub isiklikuks või hobiprojektiks tasuta ruumi, kus saad ka veebiaadressi kujul sinuprojektinimi.cloudflare.dev. Stardiks on see ilmselt täitsa ok.
 

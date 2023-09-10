@@ -6,7 +6,7 @@ heroImage: '/blogipostitus.jpg'
 slug: 'astro-algsetup'
 ---
 
-Esimeses postituses midagi põrutavat ei ole, peamiselt on see tehtud [Astroga](https://astro.build) tutvumise eesmärgil. Siiski räägin ära esimesed sammud, mida ma tegin.
+See leht on loodud [Astroga](https://astro.build) tutvumise eesmärgil. Kirjutan siin postituses lahti esimesed sammud, mida Astro püstipanemiseks tegin.
 
 ## Niisiis esimesed tähelepankud Astro kohta
 
