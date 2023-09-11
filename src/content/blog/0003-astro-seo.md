@@ -1,5 +1,5 @@
 ---
-title: 'Astro ja SEO: Kuidas optimeerida oma veeb Google jaoks sobivaks'
+title: 'Astro ja SEO: Google otsingu jaoks sobivaks optimeerimine'
 description: 'Kirjutan, kuidas Astros, uue generatsiooni staattilise saidi generaatoriga, veebilehti optimeerida SEO jaoks. Otsin nippe ja soovitusi SEO edendamiseks Astroga.'
 pubDate: 'Sep 10 2023 10:30:00'
 heroImage: '/internet-search.jpg'
@@ -22,6 +22,43 @@ Seejärel avad juba `Shift+CMD+P` käsklusega käsuriba ja otsid sama pistikprog
 ![Pistikprogrammi käivitamine Visual Studio Code's](../../../public/counter.jpg)
 Sellise seadistuse peab seega teadma, mis on soovitavad lehe tiitlite, metakirjelduste ning slug'i pikkused. Tiitli puhul on see 50-60tm'i, metakirjeldusel 160-165 ja slug'l 3-5 sõna.
 
+## Kuhu Astros tiitel, metakirjeldus ja *Slug* käivad?
+Sõltuvalt selles, mis lehega tegu, käsitletakse ka tiitlit, metakirjeldust ja *Slug'i*. Blogipostituses kirjutatakse need Markdown faili Frontmatterisse.
+
+"Frontmatter" on termin, mida kasutatakse staatiliste lehtede generaatorites ja mõnedes sisuhaldussüsteemides (CMS) viidates metaandmetele, mis on tavaliselt paigutatud faili algusesse ja mida kasutatakse lehe või postituse konfigureerimiseks. Ülejäänud sisust eraldatakse ta spetsiaalsete märgenditega, YAML'i ja Markdowni puhul näiteks kolme kriipsuga enne ja pärast.
+![Markdown frontmatter](../../../public/frontmatter.jpg)
+
+
+HTML lehtede puhul on asi veidi keerulisem, ent mitte midagi üle mõistuse käivat. Lehe üldine tiitel ja metakirjeldus asuvad `consts.ts` failis. Neid kasutatakse vaikimisi kõigil lehtedel moel, et imporditakse vastavale lehele sisse.
+```javascript
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  ```
+
+
+Kui nüüd aga tekib soov, ja ilmselt tekib, muuta erinevatel lehtedel tiitlit ja metakirjeldust, siis kirjutatakse need vastava lehe päisesse:
+```javascript
+---
+import Layout from "../layouts/BlogPost.astro";
+---
+
+<Layout
+  title="Paar sõna minust"
+  description="Juho Kalberg – disainer, informaatikaõepetaja, õppur."
+  pubDate={new Date("9. august 2023")}
+  heroImage="/juho-kalberg.jpg"
+>
+```  
+  
+
+  
+
 ## Sitemap
 Sitemap on tekstifail, milles on sinu veebilehe alamlehtede nimekiri ja ka avaldamise ajad. Google otsing võtab siit infot ja indekseerib selle abil su lehte.
 
@@ -40,3 +77,4 @@ export default defineConfig({
 	integrations: [mdx(), sitemap()],
 });
 ```
+

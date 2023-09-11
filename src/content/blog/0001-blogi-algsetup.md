@@ -1,6 +1,6 @@
 ---
 title: 'Astro algsetup'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Kuidas seadistada blogi Astroga ja lahendada linkide avanemine. Ülevaade Markdownist ja selle integreerimisest Astro projektiga.'
 pubDate: 'Sep 09 2023'
 heroImage: '/blogipostitus.jpg'
 slug: 'astro-algsetup'
@@ -38,6 +38,8 @@ Seega kirjutasime koos ChatGPT-ga selle tarbeks javaskripti funktisooni, mille p
 
 ## Markdown
 Paar sõna ka **Markdown keelest**
+
+Nagu ütlesin, kasutan blogipostituste tegemiseks Markdown keelt. Astrol on ka integratsoonid enamkasutatud [JAMStack'i CMS'idele](https://docs.astro.build/en/guides/cms/), ent stardin ilma. Hiljem teen ka nnendega tutvust.
 
 Markdown on lihtne vormindamist lubav keel. Lihtne on ta muidugi sellele, kes seda juba mõnda aega harjutanud ja siis ta kipub juba meeldima ka. Ta on kergekaaluline ja teda on võimalik edasi ümber tõlgendada erinevatesse keeletesse, nagu nt HTML või formaatidesse nagu PDF või MSWord. Markdown on mitmetes keskkondades standardiks, Markdown on kasutusel gitihalduskeskkondades. Tänu Markdownile ei ole vaja lehte koormata erinevate "editoridega".    
 Välja näeb ta umbes nii:  
