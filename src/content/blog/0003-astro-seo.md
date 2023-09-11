@@ -35,7 +35,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="et">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
@@ -56,7 +56,17 @@ import Layout from "../layouts/BlogPost.astro";
 >
 ```  
   
-
+Või kui `Layout`pole kasutusel, siis nii nagu tavapäraselt HTML-is:
+```javascript
+<head>
+    <!-- Tiitel -->
+    <title>Astro Blogi Seadistamine: Esimesed Sammud ja Nõuanded</title>
+    
+    <!-- Metakirjeldus -->
+    <meta name="description" content="Avasta, kuidas seadistada oma blogi Astroga, kasutades lihtsaid samme. Tutvu Markdowni vormindamise eelistega ja saa teada, kuidas optimeerida linke Cloudflare'iga.">
+    
+</head>
+```  
   
 
 ## Sitemap
