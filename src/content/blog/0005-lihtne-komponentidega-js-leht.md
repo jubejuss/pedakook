@@ -153,3 +153,4 @@ Ja seejärel lisame javascripti asukoha ka meie HTML-i(desse)
   <script src="loadComponents.js" type="module"></script>  
 </html>
 ```
+Ja nõnda ka kaks ülejäänud plaanitud lehte.
