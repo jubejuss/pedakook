@@ -21,16 +21,18 @@ Kõik peaks hakkama nagu ikka disainikavandist ja eelkõige mõistmisest, miks s
 Antud näites teeme 3-alamlehega portfooliolehe – esileht, enesetutvustus ja galerii.
 
 
-Skeem on selline, et meil on igale lehele omane originaalne sisuosa ja see osa, mis on kõikidel lehtedel sama. Sama osa on päis, ehk *header* ja jalus, ehk *footer*. Mutuv osa on index leht, enesetutvustuse leht ja galeriileht.
+Skeem on selline, et meil on igale lehele omane originaalne sisuosa ja see osa, mis on kõikidel lehtedel sama. Sama osa on päis, ehk *header* ja jalus, ehk *footer*. Muutuv osa on index leht, enesetutvustuse leht ja galeriileht.
 
 Seega tuleb meil teha järgmised lehed:
 - index.html
 - minust.html
-- galerii.html
+- galerii.html  
+
+Ja komponendid:
 - header.html
 - footer.html
 
-Footer.html ja header.html on antud juhul taaskasutatavad komponendid, millised me impordime oma põhilehtede sisse.
+`footer.html` ja `header.html` on antud juhul taaskasutatavad komponendid, millised me impordime oma põhilehtede sisse.
 
 Siin ei ole praegu täpne sisu oluline. Seega teeme lihtsalt kolm sarnast sisulehte ja eristamiseks kirjutame igale ühele midagi erinevat sisse ning samuti teeme *headeri* ja *footeri*, mille sisse kirjutame, et need on *header* ja *footer*.
 
@@ -154,3 +156,4 @@ Ja seejärel lisame javascripti asukoha ka meie HTML-i(desse)
 </html>
 ```
 Ja nõnda ka kaks ülejäänud plaanitud lehte.
+
