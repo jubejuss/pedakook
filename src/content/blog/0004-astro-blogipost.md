@@ -12,7 +12,7 @@ Siinse seadistuse puhul käib blogipostituse kirjutamine markdown failidesse, mi
 
 Kasutatud pildid asuvad `public`kataloogis.
 
-Markdown faili frontmatterisse kirjutatakse kogu metainfi jms:  
+Markdown faili frontmatterisse kirjutatakse kogu metainfo jms:  
 ```yaml
 ---
 title: 'Artikli või blogipostituse kirjutamine Astros'
