@@ -52,7 +52,7 @@ Selle sisse lisame HTML-koodi:
   }
 </style>
 ```
-<button> element peab see asi antud juhul olema peamiselt sel põhjusel, et nii pääsevad ka erivajadusega inimesed menüüle ligi – seda on võimalik klaviatuuril liikudes avada.
+`<button>` element peab see asi antud juhul olema peamiselt sel põhjusel, et nii pääsevad ka erivajadusega inimesed menüüle ligi – seda on võimalik klaviatuuril liikudes avada.
 
 Omakorda tuleb nüüd loodud Hamburgeri komponent importida Header komponenti:
 ```html
