@@ -107,7 +107,7 @@ See on lihtne DOM-manioulatsiooni skript, mis lisab või eemaldab valitud elemen
 
 Skripti võib kirjutada kohe kõikide lehtede lõppu, enne </body> tagi või nii, nagu ma siin teen, eraldi `js` faili, ning lisada selle link siis kõikide lehtede lõppu.
 
-Siinne *setup* kasutab hetkel ühte layouti, mis on kasutusel nii blogipostituste tegemiseks kui ka *about* lehe jaoks ning lisaks eraldi kujundatud Index.astro tüüpi esilehe jaoks ja Index.astro tüüpi blogi üldlehe jaoks. Neile kõigile peab lisama enne </body> tag'i skripti lingi ja sel juhul ongi see kõikjal, kus vaja. Kui tulevikus luua lehetüüpe või *layout*'e juurse, siis muidugi peab ka neile selle lingi lisama.
+Siinne *setup* kasutab hetkel ühte layouti, mis on kasutusel nii blogipostituste tegemiseks kui ka *about* lehe jaoks ning lisaks eraldi kujundatud Index.astro tüüpi esilehe jaoks ja Index.astro tüüpi blogi üldlehe jaoks. Neile kõigile peab lisama enne </body> tag'i skripti lingi ja sel juhul ongi see kõikjal, kus vaja. Kui tulevikus luua lehetüüpe või *layout*'e juurde, siis muidugi peab ka neile selle lingi lisama.
 
 Välja näeb see umbes nõnda:
 ```html
@@ -131,7 +131,7 @@ mis tähendab järgnevat:
 - `.addEventListener('click', () => {...})`: Lisab eelnevalt leitud elemendile (`.hamburger` klassiga elemendile) kuulaja, mis reageerib klõpsamisele (click sündmusele).
 Kui kasutaja klõpsab `.hamburger` klassiga elemendil, siis käivitatakse funktsioon.
 Funktsiooni sees on jällegi `document.querySelector('.nav-links')`: See otsib dokumendist esimest elementi, millel on klass `nav-links`.
-`.classList.toggle('expanded')`: See rida muudab `.nav-links` klassiga elemendi klasside nimekirja. Kui sellel elemendil oli juba klass expanded, siis see eemaldatakse. Kui seda klassi ei olnud, siis see lisatakse. See on nagu lüliti, mis lülitab sisse ja välja expanded klassi.
+- `.classList.toggle('expanded')`: See rida muudab `.nav-links` klassiga elemendi klasside nimekirja. Kui sellel elemendil oli juba klass expanded, siis see eemaldatakse. Kui seda klassi ei olnud, siis see lisatakse. See on nagu lüliti, mis lülitab sisse ja välja expanded klassi.
 
 Jälgima peab seda, et menüügrupi klass oleks `.nav-links` või vahetada funktsioonis `.nav-links` selle klassi vastu, mis menüülinkide grupil küljes.
 
