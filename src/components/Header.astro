@@ -1,4 +1,5 @@
 ---
+import Hamburger from "./Hamburger.astro";
 import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
 ---
@@ -6,11 +7,12 @@ import { SITE_TITLE } from "../consts";
 <header>
   <nav>
     <h2><a href="/">{SITE_TITLE}</a></h2>
-    <div class="internal-links">
+    <div class="nav-links">
       <HeaderLink href="/">Õpsiblogi</HeaderLink>
       <HeaderLink href="/blog">Blog</HeaderLink>
       <HeaderLink href="/about">Minust</HeaderLink>
     </div>
+    <Hamburger />
     <div class="social-links">
       <a href="https://est.social/@Jubejuss" target="_blank">
         <span class="sr-only">Follow on Mastodon</span>
@@ -77,9 +79,29 @@ import { SITE_TITLE } from "../consts";
   .social-links a {
     display: flex;
   }
+  .nav-links {
+    display: none;
+  }
+  .expanded {
+    justify-content: end;
+    display: flex;
+  }
+  @media (min-width: 721px) {
+    .nav-links {
+      display: block;
+    }
+  }
   @media (max-width: 720px) {
     .social-links {
       display: none;
+    }
+    .nav-links {
+      position: absolute;
+      background-color: white;
+      top: 4rem;
+      width: 100%;
+      right: 0;
+      padding: 1rem;
     }
   }
 </style>

@@ -1,8 +1,9 @@
 ---
-title: 'Astro valmis veebilehe *livesse* laskmine'
+title: 'Astro valmis veebilehe "livesse"*" laskmine'
 description: "Loe, kuidas lasta Astro build live'i Cloudflare abil. Detailne juhend samm-sammult, et tagada sujuv ja kiire veebilehe avalikustamine"
 pubDate: 'Sep 10 2023 10:29:00'
 heroImage: '/website-setup.jpg'
+heroImageAlt: 'Arvutispetsialist vaatab seadmeid ja pilve'
 slug: 'veebi-livesse-laskmine'
 ---
 

@@ -3,6 +3,7 @@ title: 'Astro ja SEO: Google otsingu jaoks sobivaks optimeerimine'
 description: 'Kirjutan, kuidas Astros, uue generatsiooni staattilise saidi generaatoriga, veebilehti optimeerida SEO jaoks. Otsin nippe ja soovitusi SEO edendamiseks Astroga.'
 pubDate: 'Sep 10 2023 10:30:00'
 heroImage: '/internet-search.jpg'
+heroImageAlt: 'Poiss istub ja vaatab arvutit'
 slug: 'astro-seo'
 ---
 

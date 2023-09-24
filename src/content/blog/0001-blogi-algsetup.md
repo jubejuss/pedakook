@@ -3,6 +3,7 @@ title: 'Astro algsetup'
 description: 'Kuidas seadistada blogi Astroga ja lahendada linkide avanemine. Ülevaade Markdownist ja selle integreerimisest Astro projektiga.'
 pubDate: 'Sep 09 2023'
 heroImage: '/blogipostitus.jpg'
+heroImageAlt: 'Trükimasin sügislehtedega'
 slug: 'astro-algsetup'
 ---
 
@@ -35,7 +36,58 @@ Seega kirjutasime koos ChatGPT-ga selle tarbeks javaskripti funktisooni, mille p
     });
   </script>
   ```
+## Pildi alt tag *frontmatteris*
+Frontmatterisse peaks lisama ka heroImage pildi alt tag'i. No sest igale pildile on vaja alt tag'i. Selleks on vaja seadistada kaks välist faili: `config.ts` ja `BlogPost.astro`layout ehk laotuse fail.
+Esimesse neist tuleb *Schema* alla lisada oma *image-alt* rida, nt selline: `heroImageAlt: z.string().optional()`:
+```javascript
+import { defineCollection, z } from 'astro:content';
+const blog = defineCollection({
+	schema: z.object({
+		... 
+		heroImageAlt: z.string().optional()
+	}),
+});
+export const collections = { blog };
+```
 
+ning sama `heroImageAlt` tuleks seejärel lisada ka `BlogPost.astro`failis kahte kohta. 
+```javascript
+---
+import ...
+...
+const { title, ..., heroImageAlt } =
+  Astro.props;
+---
+...
+  <body>
+    ...
+    <main>
+      ...
+          {
+            heroImage && (
+              <img
+                width={1020}
+                height={510}
+                src={heroImage}
+                alt={heroImageAlt}
+              />
+            )
+          }
+// ülejäänud kood
+
+```
+
+Lõpuks tuleks lisada `heroImageAlt`rida ka iga postituse frontmatterisse:
+```yaml
+---
+title: 'Artikli või blogipostituse kirjutamine Astros'
+description: 'Kuidas üldse Astos blogida. Vaata ja loe siit.'
+pubDate: 'Sep 23 2023 10:30:00'
+heroImage: '/astronaut_is_writing_blogpost.png'
+heroImageAlt: 'astronaut kirjutab kosmoses blogipostitust'
+slug: 'astro-blogisse-kirjutamine'
+---
+```
 ## Markdown
 Paar sõna ka **Markdown keelest**
 

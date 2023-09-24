@@ -3,7 +3,8 @@ title: 'Kuidas teha väike dünaamilise päise ja jalusega veebileht'
 description: 'Kuidas teha väike dünaamilise päise ja jalusega veebileht kasutades javaskripti. Kuidas teha modaaliga pildiportfoolio.'
 pubDate: 'Sep 23 2023 10:31:00'
 heroImage: '/portfolio_website_example.png'
-slug: 'javascriptiga-veebileht'
+heroImageAlt: 'Veebi blogilehe kavand – pudelid, taimed, tekstid'
+slug: 'komponentiga-veebileht-javascripti-abil'
 ---
 
 Üks paras peavalu on see, kuidas õpilastele, kes ei tea midagi veebilehtede koodimisest, javascriptist, seda neile ärahirmutamata õpetada. Et nad suudaks enamvähem ise või AI abil hakkama saada. Põhiprobleem võib olla see, et teadmata, miks seda teha, ei teki neil ka huvi või motivatsiooni.
@@ -157,3 +158,16 @@ Ja seejärel lisame javascripti asukoha ka meie HTML-i(desse)
 ```
 Ja nõnda ka kaks ülejäänud plaanitud lehte.
 
+Ning seejärel (või ka enne) võib meisterdada valmis päise ja jaluse, ehk *headeri* ja *footeri*.
+
+Header.html-is võiks asuda navigatsiooniriba:
+```html
+<nav id="mainNav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="minust.html">About</a></li>
+    <li><a href="galerii.html">Gallery</a></li>
+  </ul>
+</nav>
+```
+Ja lõpuks tehke see kõik CSS-i abil kenaks.
