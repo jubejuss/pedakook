@@ -7,7 +7,7 @@ heroImageAlt: 'Veebi blogilehe kavand – pudelid, taimed, tekstid'
 slug: 'hamburger-menuu'
 ---
 
-Minu kastutatavas blogitempliidis, [vaata siit selle Astro versiooni algsetupit](/blog/astro-algsetup), ei ole kitsale vaatele kohast menüüd ehk hamburger-menüüd. Hambruger-menüü on selline menüü, mis kitsas vaates on peidus ja avamiseks peab klikkama kolmest horisontaaljoonest koosneval ikoonil, millest ka see hmburgeri nimetus.
+Minu kasutatavas blogitempliidis, [vaata siit selle Astro versiooni algsetupit](/blog/astro-algsetup), ei ole kitsale vaatele kohast menüüd ehk hamburger-menüüd. Hamburger-menüü on selline menüü, mis kitsas vaates on peidus ja avamiseks peab klikkama kolmest horisontaaljoonest koosneval ikoonil, millest ka see hmburgeri nimetus. Muidugi võib see ikoon tehniliselt olla ükskõik mis – kapsas, kirves või küsimärk, ent praeguseks hetkeks on kasutajad üldjoontes selle nn hamburgeri ikooniga juba harjunud. Siiski on lisaks ikoonile kasulik panna ka tekst – menüü.
 
 ## See on järgmine javascriptiga tutvumise ülesanne
 
