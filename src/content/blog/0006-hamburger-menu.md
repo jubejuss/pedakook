@@ -16,7 +16,7 @@ Veebist on leitavad valmis menüükomponendid, millised sisaldavad ka hamburgeri
 [Eelmises javascripti tutvustavas ülesandes](/blog/komponentiga-veebileht-javascripti-abil) päriti moel, et lehelt otsiti kindla ID-ga elementi ning seejärel asendati selle sisu sobilikuga – `document.getElementById(componentId).innerHTML = data;`. Siinses näites aga otsitakse kindla klassinimega element `document.querySelector('.klassinimi')` ning eemaldatakse või lisatakse sellele klasse `classList.toggle('.klassinimi')`.
 
 ### Hamburgeri menüükomponendi loomine
-Kõigepealt tuleb luua komponentide katloogi (components) sobiva nimega Astro fail. Nt `Hamburger.astro`
+Kõigepealt tuleb luua komponentide kataloogi (components) sobiva nimega Astro fail. Nt `Hamburger.astro`
 
 Selle sisse lisame HTML-koodi:
 ```html
