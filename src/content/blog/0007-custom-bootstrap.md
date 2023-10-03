@@ -3,7 +3,7 @@ title: 'Kuidas installeerida "custom" Bootstrap?'
 description: 'Selleks, et kasutada oma käe järgi kohandatud Bootstrapi, tuleb oma arendusarvutisse paigaldada bootstrapi arenduskeskkond. Loe kuidas paigaldada Bootstrap 5.'
 pubDate: 'Oct 03 2023 18:45:00'
 heroImage: '/bootstrap-5-man-sitting-behind-computer.jpg'
-heroImageAlt: 'Veebi blogilehe kavand – pudelid, taimed, tekstid'
+heroImageAlt: 'Mees istub järveäärsel paadisillal ja vaatab sülearvutit'
 slug: 'custom-bootstrap'
 ---
 
@@ -52,7 +52,7 @@ ja Sassi:
 ```bash
 npm i --save-dev sass
 ```
-Võite vaadata `package.json` faili, kus on näha alumises pooles lisandunud moodulid. Samuyi on projekti kausta tekkinud folder `node_modules`.
+Võite vaadata `package.json` faili, kus on näha alumises pooles lisandunud moodulid. Samuti on projekti kausta tekkinud folder `node_modules`.
 
 Kui me loome vaid HTML-lehe, siis võiks luua mõned lisakasutad ja failid, nii et meie proejti struktuur näeks välja selline:
 ```
@@ -190,5 +190,12 @@ import * as bootstrap from 'bootstrap'
 Ja kui nüüd vaadata meie veebilehte, ongi seal juba Bootstrapi stiilides leht:
 ![Bootstrap css-iga ühendatult](/public/bootstrap-5-02.jpg)
 
+Nüüd võiks oma lehele Bootstrapi harjutamiseks luua rohkem sisu – navigatsiooniriba koos menüüga `main` sektsiooni ja jaluse.
+
+Fikseeritud laiusega konteineri, kolme veeruga kujunduse, mis mobiilivaates muutub üheks ja millises igas veerus on üks kaart.
+
+[Vaata Bootstrapi tutvustust W3school.com'ist](https://www.w3schools.com/bootstrap5/index.php)
+
+Selle tutvustuse loomiseks koos läbikatsetamisega kulus ca 4h.
 
 Järgmisena hakkame vaatama, kuidas muuta stiilid oma disaini järgi ja miks on seda lihtsam teha oma arvutisse paigaldatud Bootstrapi arenduskeskonnas.
