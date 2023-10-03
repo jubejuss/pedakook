@@ -15,7 +15,7 @@ Sellisel juhul saate täiesti korraliku kujundusega veebilehe. Lihtsalt, et tal 
 ![Bootstrp 5 näidis](https://assets.startbootstrap.com/img/screenshots/templates/modern-business.png)
 Joonis 1. Bootstrapi näidis. https://assets.startbootstrap.com/img/screenshots/templates/modern-business.png.
 
-Teine lugu on aga siis kui tekib soov kujundada oma käe ja stiili järgi veebirakendus, mis kasutab küll Bootstrapi raamistikku, ent kus vävipalett on teie ja ksutusel on vaid täpselt niipalju CSS-koodi, kui vaja.
+Teine lugu on aga siis kui tekib soov kujundada oma käe ja stiili järgi veebirakendus, mis kasutab küll Bootstrapi raamistikku, ent kus vävipalett on teie ja kasutusel on vaid täpselt niipalju CSS-koodi, kui vaja.
 
 
 
