@@ -64,6 +64,17 @@ Massiivid: Need on väärtuste loendid, mis on ümbritsetud kandilistesse sulgud
 
 Väärtused: Need võivad olla stringid (topeltjutumärkides), numbrid, tõeväärtused (`true` või `false`), objektid, massiivid või `null`.
 
+Näide:
+```json
+{
+  "isikud": [
+    {"nimi": "Kati", "vanus": 25},
+    {"nimi": "Mati", "vanus": 30}
+  ],
+  "linn": "Tallinn"
+}
+```
+
 Kui me loome vaid HTML-lehe, siis võiks luua mõned lisakaustad ja failid, nii et meie projekti struktuur näeks välja selline:
 
 ```
