@@ -80,6 +80,10 @@ bs5-kooliprojekt/
 ```
 Ehk, et meil on vaja luua `src` folder, milles on folder `js`koos failiga `main.js` ja folder `scss` failiga `styles.scss` ja `index.html` ja juurkataloogi `vite.config.js`.
 
+`styles.scss` faili loome me kõik oma stiilid.
+
+`main.js` faili kaudu impordime me arendusfaasis scss-i oma rakendusse.
+
 Kiirelt ja korraga kõikide nende folderite ja failide tegemiseks jooksuta järgmisi käsklusi:
 ```bash
 mkdir {src,src/js,src/scss}
