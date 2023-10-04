@@ -82,7 +82,7 @@ Ehk, et meil on vaja luua `src` folder, milles on folder `js`koos failiga `main.
 
 `styles.scss` faili loome me kõik oma stiilid.
 
-`main.js` faili kaudu impordime me arendusfaasis scss-i oma rakendusse.
+`main.js` faili kaudu impordime me arendusfaasis scss-i oma rakendusse, kuid sinna võime lisada ka kogu enda poolt kirjutatud javaskripti.
 
 Kiirelt ja korraga kõikide nende folderite ja failide tegemiseks jooksuta järgmisi käsklusi:
 ```bash
