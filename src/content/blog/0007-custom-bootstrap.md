@@ -225,4 +225,4 @@ Fikseeritud laiusega konteineri, kolme veeruga kujunduse, mis mobiilivaates muut
 
 Selle tutvustuse loomiseks koos läbikatsetamisega kulus ca 4h.
 
-Järgmisena hakkame vaatama, kuidas muuta stiilid oma disaini järgi ja miks on seda lihtsam teha oma arvutisse paigaldatud Bootstrapi arenduskeskonnas.
+Järgmisena hakkame vaatama, kuidas muuta stiilid oma disaini järgi ja miks on seda lihtsam teha oma arvutisse paigaldatud Bootstrapi arenduskeskonnas. [Vaata siit kuidas seadistada Bootstrap oma värve kasutama.](/blog/custom-bootstrap-colors)

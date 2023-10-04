@@ -140,3 +140,5 @@ See on tavaline tekst
 Markdowni juhendmaterjal [on leitav siit](https://www.markdownguide.org/cheat-sheet/)
 
 Üldlehed luuakse HTML'i kirjutades. Seega peab antud seadistusega blogi ehitamiseks tundma ni HTML'i kui Markdowni. See pole raske, ent ilmselt tavaline inimene sellega tegelema ei viitsi hakata.
+
+Ainult ebatavaline :)
