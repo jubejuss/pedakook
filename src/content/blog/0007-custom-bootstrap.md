@@ -166,7 +166,7 @@ npm run start
 Selle peale näitab terminal, et aadressil `http://localhost:8080/`saab meie lehte näha.
 
 Esialgu on see stiilimata, kuna me ole stiile faili linkinud:
-![Bootstrap enne css-iga ühendamist](/public/bootstrap-5-01.jpg)
+![Bootstrap enne css-iga ühendamist](/bootstrap-5-01.jpg)
 
 Järgmiseks ühendame Bootstrapi rakendusega, selleks konfigureerime `vite.config.js` faili moel, et Vite teaks, kus Bootstrap asub. Selleks lisame blocki, mis ütleb kus asub Bootrap ja kuidas Vite selle kätte saab, see võimaldab importida `node_modules` kaustas oleva Bootstrapi koodi:
 ```javascript
@@ -203,7 +203,7 @@ import '../scss/styles.scss'
 import * as bootstrap from 'bootstrap'
 ```
 Ja kui nüüd vaadata meie veebilehte, ongi seal juba Bootstrapi stiilides leht:
-![Bootstrap css-iga ühendatult](/public/bootstrap-5-02.jpg)
+![Bootstrap css-iga ühendatult](/bootstrap-5-02.jpg)
 
 Nüüd võiks oma lehele Bootstrapi harjutamiseks luua rohkem sisu – navigatsiooniriba koos menüüga `main` sektsiooni ja jaluse.
 
