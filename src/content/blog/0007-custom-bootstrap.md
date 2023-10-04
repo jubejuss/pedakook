@@ -7,7 +7,7 @@ heroImageAlt: 'Mees istub järveäärsel paadisillal ja vaatab sülearvutit'
 slug: 'custom-bootstrap'
 ---
 
-Olgugi, et arendusmaailmas on ammu moodsamaid termineid, on Bootstrap endiselt üks enimlevinud CSS-raamistikke. Seetõttu on ei ole sugugi paha teada, kuidas teda kasutada.
+Olgugi, et arendusmaailmas on ammu moodsamaid termineid, on Bootstrap endiselt üks enimlevinud CSS-raamistikke. Seetõttu on ei ole sugugi paha teada, kuidas installida Bootstrap ja teda kasutada.
 
 Kui ambitsioone muuta vaikimisi stiilidega Bootstrap millekski omanäoliseks pole, on asi lihtne – tuleb lihtsalt lisada Bootstrapi CDN-i lingid oma HTML-i ja ongi korras. [Bootstrapi kasutusjuhendid juhendid on leitavad Bootstrapi kodulehelt.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
@@ -17,17 +17,17 @@ Joonis 1. Bootstrapi näidis. https://assets.startbootstrap.com/img/screenshots/
 
 Teine lugu on aga siis kui tekib soov kujundada oma käe ja stiili järgi veebirakendus, mis kasutab küll Bootstrapi raamistikku, ent kus vävipalett on teie ja kasutusel on vaid täpselt niipalju CSS-koodi, kui vaja.
 
-
-
-## Mida on Bootstrap 5 paigaldamiseks vaja
+### Bootstrapi install
 
 Ka oma arvutisse paigaldamise juhised on Bootstrapi lehel kenasti kõik olemas – [Bootstrapi enda arvutisse paigaldamise juhised](https://getbootstrap.com/docs/5.2/getting-started/vite/), ent tunni materjalina lisan põgusa ülevaate ka siia.
+
+#### Mida on Bootstrap 5 paigaldamiseks vaja
 
 Esmalt peab arvutisse olema paigaldatud muidugi Node. Node olemasolu saad kontrollida Terminalis käsuga `node --version`. Node puudumisel saad node installeri laadida arvutisse siit: [Node installer](https://nodejs.org/en). Selle abil paigaldame arvutisse kõik vajalikud paketid arendustööks. Ja need on Vite, Sass ja muidugi Bootstrap ise koos @popperjs-iga.
 
 Vite, hääldatakse /viit/, on front-end arenduskeskkond ja valmis koodi nö valmis paki komplekteerija (ma ei oska seda paremini seletada). Sass meie puhul SCSS on CSS-i eelprotsessori Sass (Syntactically Awesome Style Sheets) süntaks. Sass on skriptikeel, mis tõlgitakse CSS-iks, ja see pakub mitmeid funktsioone ja võimalusi, mida tavalises CSS-is pole või pole hiljutise ajani olnud, et muuta stiilide kirjutamine paindlikumaks, korraldatumaks ja võimsamaks.
 
-## Bootstrap 5 paigaldamine arendusarvutisse
+#### Bootstrap 5 installimine arendusarvutisse
 
 Esmalt loome sobivasse kohta arvutis oma projektikausta.
 
@@ -54,7 +54,18 @@ npm i --save-dev sass
 ```
 Võite vaadata `package.json` faili, kus on näha alumises pooles lisandunud moodulid. Samuti on projekti kausta tekkinud folder `node_modules`.
 
-Kui me loome vaid HTML-lehe, siis võiks luua mõned lisakasutad ja failid, nii et meie proejti struktuur näeks välja selline:
+JSON (JavaScript Object Notation) on kerge andmevahetusformaat, mis on loodud andmete struktureerimiseks tekstina. See on inimestele lihtne lugeda ja kirjutada ning masinatele lihtne analüüsida ja genereerida.
+
+JSON-i põhielemendid on:
+
+Objektid: Need on võtmega-väärtusega paaride kogumid, mis on ümbritsetud loogelistesse sulgudesse `{...}`. Näiteks: `{"nimi": "Kati", "vanus": 25}`
+
+Massiivid: Need on väärtuste loendid, mis on ümbritsetud kandilistesse sulgudesse `[...]`. Näiteks: `["õun", "banaan", "kirss"]`
+
+Väärtused: Need võivad olla stringid (topeltjutumärkides), numbrid, tõeväärtused (`true` või `false`), objektid, massiivid või `null`.
+
+Kui me loome vaid HTML-lehe, siis võiks luua mõned lisakaustad ja failid, nii et meie projekti struktuur näeks välja selline:
+
 ```
 bs5-kooliprojekt/
 ├── src/
@@ -87,7 +98,7 @@ export default {
   }
 }
 ```
-See Vite konfiguratsioonifail määrab mõned arendusserveri seaded ja projekti juurkataloogi asukoha.
+See Vite javaskriptis konfiguratsioonifail määrab mõned arendusserveri seaded ja projekti juurkataloogi asukoha.
 
 `const path = require('path')`: See rida impordib Node.js `path` mooduli, mille abil me saame järgmisel real näidata kus asub juurkataloog.
 `root: path.resolve(__dirname, 'src')`: See määrab Vite projekti juurkataloogi asukoha. `__dirname` on Node.js globaalne muutuja, mis näitab praeguse skripti kataloogi absoluutset teed. `path.resolve` ühendab selle tee `src` kataloogiga, mis tähendab, et projekti juurkataloogiks on määratud `src`.
@@ -126,7 +137,7 @@ Järgmiseks peame lisama `package.json` faili `vite`skripti, mis meie rakenduse 
   "description": "",
   "main": "index.js",
   "scripts": {
-    // lisatud Vite skript
+    // lisatud Vite käivituskäsk
     "start": "vite"
   },
   "keywords": [],
