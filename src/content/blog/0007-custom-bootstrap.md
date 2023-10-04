@@ -17,17 +17,17 @@ Joonis 1. Bootstrapi näidis. https://assets.startbootstrap.com/img/screenshots/
 
 Teine lugu on aga siis kui tekib soov kujundada oma käe ja stiili järgi veebirakendus, mis kasutab küll Bootstrapi raamistikku, ent kus vävipalett on teie ja kasutusel on vaid täpselt niipalju CSS-koodi, kui vaja.
 
-### Bootstrapi install
+## Bootstrapi install
 
 Ka oma arvutisse paigaldamise juhised on Bootstrapi lehel kenasti kõik olemas – [Bootstrapi enda arvutisse paigaldamise juhised](https://getbootstrap.com/docs/5.2/getting-started/vite/), ent tunni materjalina lisan põgusa ülevaate ka siia.
 
-#### Mida on Bootstrap 5 paigaldamiseks vaja
+### Mida on Bootstrap 5 paigaldamiseks vaja
 
 Esmalt peab arvutisse olema paigaldatud muidugi Node. Node olemasolu saad kontrollida Terminalis käsuga `node --version`. Node puudumisel saad node installeri laadida arvutisse siit: [Node installer](https://nodejs.org/en). Selle abil paigaldame arvutisse kõik vajalikud paketid arendustööks. Ja need on Vite, Sass ja muidugi Bootstrap ise koos @popperjs-iga.
 
 Vite, hääldatakse /viit/, on front-end arenduskeskkond ja valmis koodi nö valmis paki komplekteerija (ma ei oska seda paremini seletada). Sass meie puhul SCSS on CSS-i eelprotsessori Sass (Syntactically Awesome Style Sheets) süntaks. Sass on skriptikeel, mis tõlgitakse CSS-iks, ja see pakub mitmeid funktsioone ja võimalusi, mida tavalises CSS-is pole või pole hiljutise ajani olnud, et muuta stiilide kirjutamine paindlikumaks, korraldatumaks ja võimsamaks.
 
-#### Bootstrap 5 installimine arendusarvutisse
+### Bootstrap 5 installimine arendusarvutisse
 
 Esmalt loome sobivasse kohta arvutis oma projektikausta.
 
