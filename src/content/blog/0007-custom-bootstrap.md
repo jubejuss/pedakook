@@ -1,6 +1,6 @@
 ---
-title: 'Kuidas installeerida "custom" Bootstrap?'
-description: 'Selleks, et kasutada oma käe järgi kohandatud Bootstrapi, tuleb oma arendusarvutisse paigaldada bootstrapi arenduskeskkond. Loe kuidas installida Bootstrap 5.'
+title: 'Kuidas installida "custom" Bootstrap?'
+description: 'Selleks, et kasutada oma käe järgi kohandatud Bootstrapi, tuleb oma arendusarvutisse paigaldada bootstrapi arenduskeskkond. Loe kuidas installeerida Bootstrap.'
 pubDate: 'Oct 03 2023 18:45:00'
 heroImage: '/bootstrap-5-man-sitting-behind-computer.jpg'
 heroImageAlt: 'Mees istub järveäärsel paadisillal ja vaatab sülearvutit'
