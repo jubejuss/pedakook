@@ -74,6 +74,7 @@ Näide:
   "linn": "Tallinn"
 }
 ```
+Pööra tähelepanu, et objektid eraldatakse komadega.
 
 Kui me loome vaid HTML-lehe, siis võiks luua mõned lisakaustad ja failid, nii et meie projekti struktuur näeks välja selline:
 
