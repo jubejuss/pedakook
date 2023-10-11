@@ -28,6 +28,6 @@ Lühidalt – kustuta süsteemist varem talletatud Githubi logimisparameetrid.
 
 MAC'il ava Keychain, otsi üles githubi kirjed ja kustuta need. Seejärel saad VSCode kaudu Githubi sisse logides juba oma git'i vajalikud muudatused üles laadida.
 
-Vindowsi puhul liigu `control panel > user accounts > credential manager > Windows credentials > Generic credentials` ja kustuta githubi sissekanded.
+Windowsi puhul liigu `control panel > user accounts > credential manager > Windows credentials > Generic credentials` ja kustuta githubi sissekanded.
 
 Peakski kõik olema.
