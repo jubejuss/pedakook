@@ -15,12 +15,18 @@ See on tüütu ja kallis.
 
 ## Kuidas teha väiksemahuline, oma disainiga, veebis hallatav veebileht
 Ei ole probleemi, kui valdad HTML-i, CSS-i ja JavaScript'i ja teed lehe iseendale, siis võidki lihtsalt HTML-i meisterdada ja kogu lugu. Ei ole väga pointi isegi mingit peent Front-endi süsteemi kasutusele võtta. Iseasi kui tead, miks ja milleks.   
-Aga kui sa ei tee endale, kui sul on vaja teha kliendile ja moel, et klient – veebiarenduse võhik – suudaks valmis lehel pisimuudatustega hakkama saada?  
+Aga kui sa ei tee endale, kui sul on vaja teha kliendile ja moel, et klient – veebiarenduse võhik – suudaks valmis lehel pisimuudatustega hakkama saada?
+
 Mul on endal töökogemus Drupali ja Wordpressiga.  
+
 On olemas nö "flat-file" tüüpi, andmebaasivabad lahendused, nagu [GravCMS](https://getgrav.org) ja [Pico](https://picocms.org). Grav'iga olen teinud mõned lehed ja väga hea lahendus, kui tahad MySQL andmebaasid oma arendusest välja jätta. Siiski eelpoolkirjeldatu jaoks liig.
+
 Lihtsamat oleks vaja.  
+
 Siinne leht on ehitatud statiliste lehtede generaator [Astroga](https://astro.build/), mille sisu luuakse Markdown keelt kasutades ja genereeritakse ümber staatiliseks leheks. Kogu arendus istub lisaks kohalikul arendusmasinale ka [Githubis](https://github.com/jubejuss/pedakook). Hetkel kirjutan sisu oma arendusarvutis ja "pushin" muudatused Githubi, kust omakorda [Cloudflare](https://www.cloudflare.com) automaatsed tööseadistused sellest staatilised lehed genereerivad. Kirjutasin sellest mõne sõnaga [Astro "livesse" laskmise postituses](https://pedakook.wtf/blog/veebi-livesse-laskmine/).
+
 Tekkis mõte, et idee poolest võiks ju olla mingi lahendus, kuidas Markdowni töödelda otse veebis. ([Markdownist kirjutasin mõne sõnaga siin](https://pedakook.wtf/blog/astro-algsetup/#markdown)). Jah muidugi, seda saaks teha otse Githubis, mh ka läbi Visual Studio Code veebieditori, ent vaja oli midagi, mis oleks tavakasutajale arusaadav.  
+
 Ja pärast mõningat otsingut ning kolleeg Kaspar-Martini soovitust ka leidsin, esmalt [Stackedit](https://stackedit.io/), mis on ok, aga seejärel juba [Readmestack][https://www.readmestack.com/], mis on täpselt see, mis vaja. Mõlemad ühilduvad Githubiga, teine on lihtsam mõneti kasutaja silmasõbralikum ja lihtsam.
 ![Readmestack kuvatõmmis](/public/readmestack.jpg)
 
