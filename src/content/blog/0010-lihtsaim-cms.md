@@ -7,7 +7,7 @@ heroImageAlt: 'Hulk kasse nagu githubi versioonid'
 slug: 'lihtsaim-cms'
 ---
 
-Mind ja ilmselt veel mõnda analoogsel tasemel veebiarendajat kipub kimbutama üks probleem – nö "All-in-one" lahendused on pisikeste projektide puhul tegelikult ebamõistlikult suured.
+Mind ja ilmselt veel mõnda analoogsel tasemel veebiapusserdajat kipub kimbutama üks probleem – nö "all-in-one" lahendused on pisikeste projektide puhul ebamõistlikult suured.
 
 Näiteks on mul vaja kliendile luua veebileht mis koosneb vaid esilehest ja veel kahest sisulehest, nt meist ja kontakt vms. Selleks panen ma püsti mahuka [Wordpressi](http://wordpress.org) või [Drupali](http://drupal.org), milleks on mul vaja rentida server, luua arendusarvutis arendussüsteem, hallata andmebaasi, uuendada mooduleid, uuendada PHP-d, hoida pidevalt kogu asja silma peal, et lehte ära ei häkitaks, installida mingeid pluginaid jne, jne.
 
@@ -33,7 +33,7 @@ Ja pärast mõningat otsingut ning kolleeg Kaspar-Martini soovitust ka leidsin, 
 ## Millised on miinused?
 Kindlasti on markdown editor pisut puine võreldes nt CKEditori või Guttenbergiga. St juhul kui sa oled eelnevatega harjunud.
 
-Readmestackis puudub piltide üleslaadimise võimalus, mis on Wordpressil ja Drupalil. Seega võiks lisaks seadistada mingi pildihoidla. Nt Google Drive või Google Photos vms. Hea oleks kui seal oleks kasutada ka mingi piltide parajaks lõikamise tööriist.
+Readmestackis puudub piltide üleslaadimise võimalus, mis on Wordpressil ja Drupalil. Seega peaks lisaks seadistama mingi pildihoidla. Nt Google Drive või Google Photos vms. Hea oleks kui seal oleks kasutada ka mingi piltide parajaks lõikamise tööriist.
 
 Parajad piltide suurused tuleks lehe arendamise käigus välja mõelda. Pildihoidlad, millistel on ka lihtsad elementaarsed pilditöölusvahendid, leiab googledades kiirelt. [Näiteks siin üks artikkel tasuta ja tasulistest pildihpidlatest.](https://expertphotography.com/best-free-image-hosting/).
 
