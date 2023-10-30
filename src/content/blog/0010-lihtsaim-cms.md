@@ -28,7 +28,7 @@ Siinne leht on ehitatud statiliste lehtede generaator [Astroga](https://astro.bu
 Tekkis mõte, et idee poolest võiks ju olla mingi lahendus, kuidas Markdowni töödelda otse veebis. ([Markdownist kirjutasin mõne sõnaga siin](https://pedakook.wtf/blog/astro-algsetup/#markdown)). Jah muidugi, seda saaks teha otse Githubis, mh ka läbi Visual Studio Code veebieditori, ent vaja oli midagi, mis oleks tavakasutajale arusaadav.  
 
 Ja pärast mõningat otsingut ning kolleeg Kaspar-Martini soovitust ka leidsin, esmalt [Stackedit](https://stackedit.io/), mis on ok, aga seejärel juba [Readmestack][https://www.readmestack.com/], mis on täpselt see, mis vaja. Mõlemad ühilduvad Githubiga, teine on lihtsam mõneti kasutaja silmasõbralikum ja lihtsam.
-![Readmestack kuvatõmmis](/public/readmestack.jpg)
+![Readmestack kuvatõmmis](/readmestack.jpg)
 
 ## Millised on miinused?
 Kindlasti on markdown editor pisut puine võreldes nt CKEditori või Guttenbergiga. St juhul kui sa oled eelnevatega harjunud.
