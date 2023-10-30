@@ -65,7 +65,7 @@ Nüüd võiks meie lehekülje sisuplokk näha välja umbes selline:
 </div>
 <script type="module" src="./js/main.js"></script>
 ```
-![bootstrap](/public/bootstrap-colors-2.jpg)
+![bootstrap](/bootstrap-colors-2.jpg)
 
 ### Enda värvipaleti kasutuselevõtt
 Järgmiseks avame `bootstrap-02.scss` faili ja impordime bootstrapi funktsiooid ja muutujad. Need read peame lisama faili algusesse, enne seal olevat bootstrapi importi:
@@ -93,13 +93,13 @@ $theme-colors: (
 @import "~bootstrap/scss/bootstrap";
 ```
 Ja nüüd näeb meie leht välja selline:
-![Bootstrap muudetud värvidega](/public/bootstrap-colors-3.jpg)
+![Bootstrap muudetud värvidega](/bootstrap-colors-3.jpg)
 
 Peamine, mille me sedapidi setupiga saavutame on see, et Bootstrapi funktsioonid loovad ise kõik vajalikud pooltoonid juurde – hover, active, focus – olekud, mis kõik on väikse toonierinevusega:
-![Bootstrap muudetud värvidega olekud](/public/bootstrap-colors-4.jpg)
+![Bootstrap muudetud värvidega olekud](/bootstrap-colors-4.jpg)
 
 Ilma sellise automatiseerimiseta tuleks käistsi kirjutada üle vaid ühe nupu puhul selline hulk muutujaid:
-![Botstrapi nuppude värvid](/public/bootstrap-colors-5.jpg)
+![Botstrapi nuppude värvid](/bootstrap-colors-5.jpg)
 
 Nuppude olekute kohta olen ma pisut veel kirjutanud:
 [milline on "õige" fookuse indikaator](https://vilejakell.studio/wcag-fookus-olek) ja [kui palju peaks hover state erinema tavalisest olekust](https://vilejakell.studio/hover-state-wcag)
