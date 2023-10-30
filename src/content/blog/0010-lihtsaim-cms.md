@@ -9,7 +9,7 @@ slug: 'lihtsaim-cms'
 
 Mind ja ilmselt veel mõnda analoogsel tasemel veebiapusserdajat kipub kimbutama üks probleem – nö "all-in-one" lahendused on pisikeste projektide jaoks ebamõistlikult suured.
 
-Näiteks on mul vaja kliendile luua veebileht mis koosneb vaid esilehest ja veel kahest sisulehest, nt meist ja kontakt vms. Selleks panen ma püsti mahuka [Wordpressi](http://wordpress.org) või [Drupali](http://drupal.org), milleks on mul vaja rentida server, luua arendusarvutis arendussüsteem, hallata andmebaasi, uuendada mooduleid, uuendada PHP-d, hoida pidevalt kogu asja silma peal, et lehte ära ei häkitaks, installida mingeid pluginaid jne, jne.
+Näiteks on mul vaja kliendile luua veebileht mis koosneb vaid esilehest ja veel kahest sisulehest, nt meist ja kontakt vms, ent mida klient saaks ise täiendada. Selleks panen ma püsti mahuka [Wordpressi](http://wordpress.org) või [Drupali](http://drupal.org), milleks on mul vaja rentida server, luua arendusarvutis arendussüsteem, hallata andmebaasi, uuendada mooduleid, uuendada PHP-d, hoida pidevalt kogu asja silma peal, et lehte ära ei häkitaks, installida mingeid pluginaid jne, jne.
 
 See on tüütu ja kallis.
 
