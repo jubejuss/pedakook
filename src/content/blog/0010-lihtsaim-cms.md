@@ -30,7 +30,8 @@ Tekkis mõte, et idee poolest võiks ju olla mingi lahendus, kuidas Markdowni t�
 Ja pärast mõningat otsingut ning kolleeg Kaspar-Martini soovitust ka leidsin, esmalt [Stackedit](https://stackedit.io/), mis on ok, aga seejärel juba [Readmestack][https://www.readmestack.com/], mis on täpselt see, mis vaja. Mõlemad ühilduvad Githubiga, teine on lihtsam mõneti kasutaja silmasõbralikum ja lihtsam.
 ![Readmestack kuvatõmmis](/readmestack.jpg)
 
-## Seega lahendus – Github + Cloudflare + Readmestack  
+## Seega lahendus – Github + staatiliste lehtede generaator + Cloudflare + Readmestack
+Githubis (vms ladu) istub kood, Cloudflare genereerib nt Astrot või Eleventy't kasutades staatilised failid ja serveerib neid ning Readmestack (vms analoog) on kliendile pisimuudatuste tegemiseks.  
   
 ### Millised on miinused?
 Kindlasti on markdown editor pisut puine võreldes nt CKEditori või Guttenbergiga. St juhul kui sa oled eelnevatega harjunud.
