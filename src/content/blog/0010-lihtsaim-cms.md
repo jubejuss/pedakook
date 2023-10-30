@@ -30,7 +30,9 @@ Tekkis mõte, et idee poolest võiks ju olla mingi lahendus, kuidas Markdowni t�
 Ja pärast mõningat otsingut ning kolleeg Kaspar-Martini soovitust ka leidsin, esmalt [Stackedit](https://stackedit.io/), mis on ok, aga seejärel juba [Readmestack][https://www.readmestack.com/], mis on täpselt see, mis vaja. Mõlemad ühilduvad Githubiga, teine on lihtsam mõneti kasutaja silmasõbralikum ja lihtsam.
 ![Readmestack kuvatõmmis](/readmestack.jpg)
 
-## Millised on miinused?
+## Seega lahendus – Github + Cloudflare + Readmestack
+
+### Millised on miinused?
 Kindlasti on markdown editor pisut puine võreldes nt CKEditori või Guttenbergiga. St juhul kui sa oled eelnevatega harjunud.
 
 Readmestackis puudub piltide üleslaadimise võimalus, mis on Wordpressil ja Drupalil. Seega peaks lisaks seadistama mingi pildihoidla. Nt Google Drive või Google Photos vms. Hea oleks kui seal oleks kasutada ka mingi piltide parajaks lõikamise tööriist.
