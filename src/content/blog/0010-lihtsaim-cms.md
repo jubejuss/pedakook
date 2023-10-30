@@ -41,7 +41,7 @@ Parajad piltide suurused tuleks lehe arendamise käigus välja mõelda. Pildihoi
 
 Aga mõistlik on võtta ilmselt mingi kõige lihtsam, nt Google Photos on täitsa ok.
 
-## Kui mõistlik selline lahendus on?
+### Kui mõistlik selline lahendus on?
 Raske öelda, peab mõne kliendiga proovima, aga kuna lõpptulemusena on tegemist staatilise lehega, on viiruste võimalus nullilähedane. Erinevalt Wordpressist, mida pidvalt rünnatakse. Seega võiks klient siit raha kokku hoida küll.
 
 Nii väikese lehe võiks muidugi Astro asemel nt Eleventyga teha. Teen selle kohta peagi postituse.
