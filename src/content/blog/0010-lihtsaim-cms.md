@@ -21,7 +21,7 @@ Mul on endal töökogemus Drupali ja Wordpressiga.
 
 On olemas nö "flat-file" tüüpi, andmebaasivabad lahendused, nagu [GravCMS](https://getgrav.org) ja [Pico](https://picocms.org). Grav'iga olen teinud mõned lehed ja väga hea lahendus, kui tahad MySQL andmebaasid oma arendusest välja jätta. Siiski eelpoolkirjeldatu jaoks liig.
 
-Lihtsamat oleks vaja.  
+### Lihtsamat oleks vaja.  
 
 Siinne leht on ehitatud statiliste lehtede generaator [Astroga](https://astro.build/), mille sisu luuakse Markdown keelt kasutades ja genereeritakse ümber staatiliseks leheks. Kogu arendus istub lisaks kohalikul arendusmasinale ka [Githubis](https://github.com/jubejuss/pedakook). Hetkel kirjutan sisu oma arendusarvutis ja "pushin" muudatused Githubi, kust omakorda [Cloudflare](https://www.cloudflare.com) automaatsed tööseadistused sellest staatilised lehed genereerivad. Kirjutasin sellest mõne sõnaga [Astro "livesse" laskmise postituses](https://pedakook.wtf/blog/veebi-livesse-laskmine/).
 
