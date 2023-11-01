@@ -2,7 +2,7 @@
 title: 'Kuidas teha ise väiksemahuline Wordpressi alternatiiv'
 description: "Loe kuidas selle asemel, et väiksemahulise veebi jaoks luua Worpressi leht, teha staatilise lehe generaatori, git'i ja markdowni tekstiredaktori abil lihtne CMS"
 pubDate: 'Oct 27 2023 18:45:00'
-heroImage: '/content_management.png'
+heroImage: '/technical-blog.webp'
 heroImageAlt: 'Hulk kasse nagu githubi versioonid'
 slug: 'lihtsaim-cms'
 ---
