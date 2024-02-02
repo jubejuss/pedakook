@@ -1,5 +1,5 @@
 ---
-title: "Deno – moodne Node. Lume staatilise lehe generaator Node'le"
+title: "Deno – moodne Node. Lume – staatilise lehe generaator Node'le"
 description: "Loe siit, kuidas panna püsti Denol baseeruv staatilise lehe generaato"
 pubDate: 'Feb 02 2024 18:45:00'
 heroImage: '/deno.webp'
