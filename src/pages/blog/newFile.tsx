@@ -6,7 +6,7 @@ import FormattedDate from "../../components/FormattedDate.astro";
 import { posts } from "./index.astro";
 
 <Fragment>
-<html lang="en">
+<html lang="et">
 <head>
 <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 <style>{`
