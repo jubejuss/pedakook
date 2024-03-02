@@ -1,6 +1,6 @@
 ---
-title: "Deno – moodne Node. Lume – staatilise lehe generaator Node'le"
-description: "Loe siit, kuidas panna püsti Denol baseeruv staatilise lehe generaato"
+title: "Deno – moodne Node. Lume – staatilise lehe generaator Deno'le"
+description: "Loe siit, kuidas panna püsti Denol baseeruv staatilise lehe generaator"
 pubDate: 'Feb 02 2024 18:45:00'
 heroImage: '/deno.webp'
 heroImageAlt: 'Denosaurus'
@@ -71,8 +71,8 @@ export default site;
   }
 }
 ```
-Ja sellega juba süsteem töötabki – lisa projekti juurkataloogi markdown fail, jooksuta terminalis käsklust `deno task lume --serve --port=8000` ja näedki tulemust. `deno task lume` loob staatiliste failide kataloogi `_site`, `--serve` paneb süsteemi muudatusi jälgima ja `--port=8000`on muidugi pordi number, kust tulemust näed. Ehk, et vaata brauseris `localhost:8000`
+Ja sellega juba süsteem töötabki – lisa projekti juurkataloogi markdown fail, jooksuta terminalis käsklust `deno task lume --serve --port=8000` ja näedki tulemust. `deno task lume` loob staatiliste failide kataloogi `_site`, `--serve` paneb süsteemi muudatusi jälgima ja `--port=8000`on muidugi pordi number, kust tulemust näed. Ehk, et vaata brauseris `localhost:8000` Vaikimisi port on 3000
 
-
+Selgitused Lume lehel: [https://lume.land/docs/overview/command-line/](https://lume.land/docs/overview/command-line/)
 
 
