@@ -33,7 +33,7 @@ Disainisüsteemides on arendajad ja disainerid kulutanud tuhandeid tunde tööae
 
 Kui disainisüsteem on kui arhitekti joonised, siis komponentide teegid on kui õigest materjalist valmis ehitusplokid. Need pakuvad arendajatele valmis UI elemente – nuppe, vorme, tabeleid ja palju muud. Effektiivne töö on selline, kus võimalikult väikese ressursikuluga teed võimalikult palju. Valmis komponentide teegid pakuvad just sellist võimalust – lihtsalt installeerid teegi ja kutsud vajaliku kompnendi vajalikus kohas välja. Endal, kui üldse vaja, jääb vaid pisut lihvida – muuta värve, raadiuseid võid suurusi vastavalt enda kavandatule. Sageli sisaldavad disainisüsteemid ka komponentide teeki.
 
-Mõned tuntumad neist:
+Mõned tuntumad komponentide teegid:
 
 - [Material-UI (MUI)](https://mui.com/  )
 - [Ant Design](https://ant.design/)
@@ -56,10 +56,10 @@ Tailwind CSS on viimastel aastatel tõusnud eriti populaarseks tänu oma paindli
 
 Siinses kontekstis märgin, et css-raamistikud võivad olla kasutuses koos UI-teekidega, lihtsustades stiilimist. Osad UI-teegid kasutavad mõnd CSS-raamistikku.  
 
-On muidugi veel põnevaid CSS-raamistikke, millega tutvuda, nagu näiteks [Panda CSS](https://panda-css.com/docs/overview/getting-started), mida saab kasutada ka kombineerituna UI-teek [Shadow PAnda'ga](https://shadow-panda.dev/docs/overview/introduction).
+On muidugi veel põnevaid CSS-raamistikke, millega tutvuda, nagu näiteks [Panda CSS](https://panda-css.com/docs/overview/getting-started), mida kasutab selline UI-teek nagu [Shadow Panda](https://shadow-panda.dev/docs/overview/introduction).
 
 ## Kuidas valida õige süsteem?
-Kogemustega arendaja teab ilmselt juba ise, kuidas valida õige süsteem.  Lihtne reegel peaks aga olema see, et süsteem, mis on sulle kõige tuttavam on ka kõige parem. Õppimiseks võiks aga hoida silma peal trendidel, millest ja miks parasjagu räägitakse. Hetkel, oktoober 2024, tundub, et Chakra, Shad ja Headless UI on ajsad, mida tasuks katsetada.
+Kogemustega arendaja teab ilmselt juba ise, kuidas valida õige süsteem.  Lihtne reegel peaks aga olema see, et süsteem, mis on sulle kõige tuttavam on ka kõige parem. Õppimiseks võiks aga hoida silma peal trendidel, millest ja miks parasjagu räägitakse. Hetkel, oktoober 2024, tundub, et Chakra, Shad ja Headless UI on asjad, mida tasuks katsetada.
 
 Claude AI, aga kirjutas näiteks sellise selgituse:
 
