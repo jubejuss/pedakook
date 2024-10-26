@@ -7,19 +7,19 @@ heroImageAlt: 'Front-end arendaja joob kohvi'
 slug: 'disainisysteemid-ui-teegid'
 ---
 
-Kaasaegses veebirakenduste arenduses on saadaval lai valik erinevaid tööriistu ja süsteeme, mis aitavad luua kasutajasõbralikke ja visuaalselt atraktiivseid rakendusi. Vaatame lähemalt, millised need on ja kuidas neid parimal viisil rakendada.
+Kaasaegses veebirakenduste arenduses on saadaval lai valik erinevaid tööriistu ja süsteeme, mis aitavad luua kasutajasõbralikke ja visuaalselt atraktiivseid rakendusi. On palju reegleid ja seaduspärasusi, nagu näiteks WCAG reeglid ja kasutajakogemuse põhimõtted, mida järgimata võib su veebileht muutuda kasutuskõlbmatuks pahnaks. Kuna kõige selle järgimine on üksjagu raske ülesanne, muudab disainisüsteemide või neis toodud reeglite järgimine arendaja ja disaineri töö lihtsamaks ning juba valmis komponentide kopeerimine töö kiireks.
 
 ## Mis on disainisüsteem?
 
-Disainisüsteem on kui digitaalne disainikeel – terviklik kogum reegleid, komponente ja juhiseid, mis määratleb, kuidas rakendus peaks välja nägema ja käituma. See hõlmab kõike alates värvipaletist ja tüpograafiast kuni interaktsioonimustrite ja kasutajakogemuse põhimõteteni.
+Disainisüsteem on terviklik kogum reegleid, komponente ja juhiseid, mis määratleb, kuidas rakendus peaks välja nägema ja käituma. See hõlmab kõike alates värvipaletist ja tüpograafiast kuni interaktsioonimustrite ja kasutajakogemuse põhimõteteni.
 
 Tuntumad disainisüsteemid on:
 
-- [Google Material Design](https://m3.material.io/) - Google'i loodud disainisüsteem Android ja veebirakenduste jaoks
-- [IBM Carbon Design](https://www.carbondesignsystem.com/) - IBM-i ettevõtte disainisüsteem
+- [Google Material Design](https://m3.material.io/) - Google'i loodud disainisüsteem Androidi ja veebirakenduste jaoks
+- [IBM Carbon Design](https://www.carbondesignsystem.com/) - IBM-i disainisüsteem
 - [Salesforce Lightning](https://www.lightningdesignsystem.com/) - Salesforce'i platvormile loodud disainisüsteem
 - [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) - Apple'i seadmete ja rakenduste disainisüsteem 
-- [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/) - Microsofti rakenduste ja Windows'i disainisüsteem
+- [Microsoft Fluent Design](https://www.microsoft.com/design/fluent/) - Microsofti rakenduste disainisüsteem
 - [Atlassian Design System](https://atlassian.design/) - Atlassiani toodete disainisüsteem
 - [Shopify Polaris](https://polaris.shopify.com/) - E-kaubanduse platvormile loodud disainisüsteem
 - [Base Web](https://baseweb.design/) - Base web rakenduste disainisüsteem
@@ -29,9 +29,9 @@ Tuntumad disainisüsteemid on:
 
 Disainisüsteemides on arendajad ja disainerid kulutanud tuhandeid tunde tööaega, et luua hästi töötavad, hea disaini, ligipääsetavuse reegeleid ja kasutajakogemust arvestavad lahendused, mistap oleks tark neist õppust võtta või neid kasutada.
 
-## Komponentide teegid (UI Component libraries) – ehitusklotsid veebirakenduste loomiseks
+## Komponentide teegid (UI Component libraries) on ehitusklotsid veebirakenduste loomiseks
 
-Kui disainisüsteem on kui arhitekti joonised, siis komponentide teegid on kui valmis ehitusplokid. Need pakuvad arendajatele valmis UI elemente – nuppe, vorme, tabeleid ja palju muud. Effektiivne töö on selline, kus võimalikult väikese ressursikuluga teed võimalikult palju. Valmis komponentide teegid pakuvad just sellist võimalust. Endal jääb vaid pisut lihvida – muuta värve, raadiuseid võid suurusi vastavalt enda kavandatule.
+Kui disainisüsteem on kui arhitekti joonised, siis komponentide teegid on kui valmis ehitusplokid. Need pakuvad arendajatele valmis UI elemente – nuppe, vorme, tabeleid ja palju muud. Effektiivne töö on selline, kus võimalikult väikese ressursikuluga teed võimalikult palju. Valmis komponentide teegid pakuvad just sellist võimalust – lihtsalt installeerid teegi ja kutsud vajaliku kompnendi vajalikus kohas välja. Endal jääb vaid pisut lihvida – muuta värve, raadiuseid võid suurusi vastavalt enda kavandatule. Sageli sisaldavad disainisüsteemid ka komponentide teeki.
 
 Mõned tuntumad neist:
 
@@ -46,8 +46,7 @@ Mõned tuntumad neist:
 - [Mantine](https://mantine.dev/)
 - [Semantic UI](https://semantic-ui.com/)
 
-
-Komponentide teekide kasutamine teeb arendamise palju kiiremaks. Selle asemel, et ise kõiki nuppe, vorme ja muid elemente nullist ehitada, saad kasutada juba valmis tehtud ja läbi testitud komponente. 
+NB! Siinses materjalis käsitleme vaid Reactiga seotud komponentide teeke.
 
 ## CSS raamistikud
 
@@ -55,52 +54,10 @@ CSS raamistikud jagunevad kahte põhikategooriasse. Traditsioonilised raamistiku
 
 Tailwind CSS on viimastel aastatel tõusnud eriti populaarseks tänu oma paindlikkusele. Selle asemel, et pakkuda valmis komponente, võimaldab see kiiresti luua unikaalseid disaine läbi utiliidi-klasside. Bootstrap seevastu sobib hästi kiireks prototüüpimiseks ja lihtsamate veebilehtede loomiseks.  
 
-Siinses kontekstis märgin, et css-raamistikud võivad olla kasutuses koos UI-teekidega, lihtsustades stiilimist. Osad UI-teegis kasutavad mõnd CSS-raamistikku.
-
-Populaarsemad UI-teegid:
-
-- **React UI teegid**
-  - Material-UI (MUI)
-  - Ant Design
-  - Chakra UI
-  - Shadcn/ui
-  - Next UI
-  - React Bootstrap
-  - Mantine
-  - Radix UI
-  - Headless UI
-  - React Suite
-  - Grommet
-  - Blueprint
-
-- **Vue UI teegid**
-  - Vuetify
-  - Element Plus
-  - Quasar
-  - PrimeVue
-  - Vue Material
-  - Buefy
-  - Naive UI
-
-- **Angular UI teegid**
-  - Angular Material
-  - PrimeNG
-  - NG-Bootstrap
-  - Nebular
-  - NGX-Bootstrap
-  - Clarity Design
-
-- **Universaalsed UI teegid**
-  - Bootstrap
-  - Foundation
-  - Bulma
-  - Semantic UI
-  - UIkit
-  - Materialize
-
+Siinses kontekstis märgin, et css-raamistikud võivad olla kasutuses koos UI-teekidega, lihtsustades stiilimist. Osad UI-teegid kasutavad mõnd CSS-raamistikku.
 
 ## Kuidas valida õige süsteem?
-Kogemustega arendaja teab ilmselt juba ise, kuidas valida õige süsteem.  Lihtne reegel peaks aga olema see, et süsteem, mis on sulle kõige tuttavam on ka kõõige parem. Õppimiseks võiks aga hoida silma peal trendidel, millest ja miks parasjagu räägitakse. Hetkel, oktoober 2024, tundub mulle huvi pakkuvad Chakra, Shad ja Headless UI.
+Kogemustega arendaja teab ilmselt juba ise, kuidas valida õige süsteem.  Lihtne reegel peaks aga olema see, et süsteem, mis on sulle kõige tuttavam on ka kõige parem. Õppimiseks võiks aga hoida silma peal trendidel, millest ja miks parasjagu räägitakse. Hetkel, oktoober 2024, tundub, et Chakra, Shad ja Headless UI on ajsad, mida tasuks katsetada.
 
 Claude AI, aga kirjutas näiteks sellise selgituse:
 
