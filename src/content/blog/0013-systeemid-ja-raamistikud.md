@@ -115,6 +115,42 @@ Mõned süsteemid on loodud spetsiifiliste valdkondade jaoks:
 - **Shopify Polaris** - e-kaubanduse platvormide jaoks loodud süsteem, mis sisaldab spetsiaalseid komponente toodete kuvamiseks ja ostuprotsessi haldamiseks
 - **Atlassian Design System** - projektijuhtimise ja meeskonnatöö tarkvarade jaoks optimeeritud süsteem
 
+
+## Dokumentatsioon ja komponendid
+
+Dokumentatsioon aitab:
+- Uutel arendajatel kiiremini projekti sisse elada
+- Vältida samu küsimusi korduvalt küsimast
+- Hoida meeles, miks mingid otsused tehti
+- Leida kiiresti vajalikku infot
+- Vähendada vigu ja arusaamatusi
+- Hoida koodi kvaliteeti
+
+### Storybook – dokumentatsiooni standard
+
+Storybook on muutunud UI komponentide arenduse ja dokumentatsiooni standardiks, pakkudes:
+- Isoleeritud arenduskeskkonda komponentide loomiseks
+- Interaktiivseid näiteid ja dokumentatsiooni
+- Automaatset testimist ja visuaalse regressiooni kontrolli
+- Head koostööd disainerite ja arendajate vahel
+
+### Dokumentatsiooni sisu
+
+- Selgitus, milleks komponent või süsteem mõeldud on
+- Näited, kuidas seda kasutada
+- Tehnilised detailid ja seadistused
+- Võimalikud probleemid ja nende lahendused
+- Infot selle kohta, kuidas komponenti muuta või edasi arendada
+
+### Dokumenteerimise alternatiivid
+
+1. Ladle
+2. MDX + Next.js
+3. Docusaurus
+4. Histoire
+5. Sandpack
+6. Nextra
+
 ## Kokkuvõte
 
 Õige disaini- ja arendussüsteemi valik võib oluliselt mõjutada projekti edu. Oluline on arvestada:
