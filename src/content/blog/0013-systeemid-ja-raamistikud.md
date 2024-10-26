@@ -7,7 +7,7 @@ heroImageAlt: 'Front-end arendaja joob kohvi'
 slug: 'disainisysteemid-ui-teegid'
 ---
 
-Kaasaegses veebirakenduste arenduses on saadaval lai valik erinevaid tööriistu ja süsteeme, mis aitavad luua kasutajasõbralikke ja visuaalselt atraktiivseid rakendusi. On palju reegleid ja seaduspärasusi, nagu näiteks WCAG reeglid ja kasutajakogemuse põhimõtted, mida järgimata võib su veebileht muutuda kasutuskõlbmatuks pahnaks. Kuna kõige selle järgimine on üksjagu raske ülesanne, muudab disainisüsteemide või neis toodud reeglite järgimine arendaja ja disaineri töö lihtsamaks ning juba valmis komponentide kopeerimine töö kiireks.
+Kaasaegses veebirakenduste arenduses on saadaval lai valik erinevaid tööriistu ja süsteeme, mis aitavad luua kasutajasõbralikke ja visuaalselt atraktiivseid rakendusi. On palju reegleid ja seaduspärasusi, nagu näiteks [WCAG](https://www.w3.org/TR/WCAG22/) reeglid ja [kasutajakogemuse](https://www.nngroup.com/articles/definition-user-experience/) põhimõtted, mida järgimata võib su veebileht muutuda kasutuskõlbmatuks pahnaks. Kuna kõige selle järgimine on üksjagu raske ülesanne, muudab disainisüsteemide või neis toodud reeglite järgimine arendaja ja disaineri töö lihtsamaks ning juba valmis komponentide kopeerimine töö kiireks.
 
 ## Mis on disainisüsteem?
 
@@ -31,7 +31,7 @@ Disainisüsteemides on arendajad ja disainerid kulutanud tuhandeid tunde tööae
 
 ## Komponentide teegid (UI Component libraries) on ehitusklotsid veebirakenduste loomiseks
 
-Kui disainisüsteem on kui arhitekti joonised, siis komponentide teegid on kui valmis ehitusplokid. Need pakuvad arendajatele valmis UI elemente – nuppe, vorme, tabeleid ja palju muud. Effektiivne töö on selline, kus võimalikult väikese ressursikuluga teed võimalikult palju. Valmis komponentide teegid pakuvad just sellist võimalust – lihtsalt installeerid teegi ja kutsud vajaliku kompnendi vajalikus kohas välja. Endal jääb vaid pisut lihvida – muuta värve, raadiuseid võid suurusi vastavalt enda kavandatule. Sageli sisaldavad disainisüsteemid ka komponentide teeki.
+Kui disainisüsteem on kui arhitekti joonised, siis komponentide teegid on kui õigest materjalist valmis ehitusplokid. Need pakuvad arendajatele valmis UI elemente – nuppe, vorme, tabeleid ja palju muud. Effektiivne töö on selline, kus võimalikult väikese ressursikuluga teed võimalikult palju. Valmis komponentide teegid pakuvad just sellist võimalust – lihtsalt installeerid teegi ja kutsud vajaliku kompnendi vajalikus kohas välja. Endal, kui üldse vaja, jääb vaid pisut lihvida – muuta värve, raadiuseid võid suurusi vastavalt enda kavandatule. Sageli sisaldavad disainisüsteemid ka komponentide teeki.
 
 Mõned tuntumad neist:
 
@@ -50,11 +50,13 @@ NB! Siinses materjalis käsitleme vaid Reactiga seotud komponentide teeke.
 
 ## CSS raamistikud
 
-CSS raamistikud jagunevad kahte põhikategooriasse. Traditsioonilised raamistikud nagu Bootstrap pakuvad valmis komponente ja paigutusi, samas kui utiliidi-põhised raamistikud nagu Tailwind CSS keskenduvad väikestele, ühe-eesmärgilistele klassidele.
+CSS raamistikud jagunevad kahte põhikategooriasse. Traditsioonilised raamistikud nagu [Bootstrap](/blog/custom-bootstrap) pakuvad valmis komponente ja paigutusi, samas kui utiliidi-põhised raamistikud nagu [Tailwind CSS](https://tailwindcss.com/) keskenduvad väikestele, ühe-eesmärgilistele klassidele.
 
 Tailwind CSS on viimastel aastatel tõusnud eriti populaarseks tänu oma paindlikkusele. Selle asemel, et pakkuda valmis komponente, võimaldab see kiiresti luua unikaalseid disaine läbi utiliidi-klasside. Bootstrap seevastu sobib hästi kiireks prototüüpimiseks ja lihtsamate veebilehtede loomiseks.  
 
-Siinses kontekstis märgin, et css-raamistikud võivad olla kasutuses koos UI-teekidega, lihtsustades stiilimist. Osad UI-teegid kasutavad mõnd CSS-raamistikku.
+Siinses kontekstis märgin, et css-raamistikud võivad olla kasutuses koos UI-teekidega, lihtsustades stiilimist. Osad UI-teegid kasutavad mõnd CSS-raamistikku.  
+
+On muidugi veel põnevaid CSS-raamistikke, millega tutvuda, nagu näiteks [Panda CSS](https://panda-css.com/docs/overview/getting-started), mida saab kasutada ka kombineerituna UI-teek [Shadow PAnda'ga](https://shadow-panda.dev/docs/overview/introduction).
 
 ## Kuidas valida õige süsteem?
 Kogemustega arendaja teab ilmselt juba ise, kuidas valida õige süsteem.  Lihtne reegel peaks aga olema see, et süsteem, mis on sulle kõige tuttavam on ka kõige parem. Õppimiseks võiks aga hoida silma peal trendidel, millest ja miks parasjagu räägitakse. Hetkel, oktoober 2024, tundub, et Chakra, Shad ja Headless UI on ajsad, mida tasuks katsetada.
@@ -69,6 +71,14 @@ Claude AI, aga kirjutas näiteks sellise selgituse:
 
 **Modernsete rakenduste** jaoks tasub kaaluda hübriidsüsteeme nagu Shadcn/ui või Next UI, eriti kui kasutate React'i või Next.js'i.
 
+## UI-kitid
+Nüüd, kus on juttu olnud disainissüsteemidest ja komponentide teekidest, jääb veel küsimus – mis on UI-kit?  
+Tegelikult on mõneti kõik need kolm kokku langevad – paljud disainissüsteemid sisaldavad ka juba komponentide teeke ja UI-kit iseenesest võiks olla defineeritud sama moodi kui komponentide teek, ehk komplekt valmis disainitud komponente, stiilie ja tookeneid. Endale on mulle silma jäänud, et UI-kit on kasutusel pigem disainis, nt Figma failis loodud komponentide kogum. Leidsin ühe artikli, kus kirjeldatakse asja nõnda:  
+"Disainisüsteem: See on terviklik juhend, mis sisaldab reegleid, põhimõtteid ja tööriistu, et tagada ühtne ja järjepidev disain kogu toote või brändi ulatuses. See hõlmab stiilijuhendeid, värvipalette, tüpograafiat ja muid visuaalseid elemente.  
+Komponentide teek: See on kogum taaskasutatavaid UI-komponente, nagu nupud, vormid ja kaardid, mis on loodud vastavalt disainisüsteemi juhistele. Komponentide teek aitab arendajatel ja disaineritel kiiresti ja tõhusalt luua kasutajaliideseid.  
+UI-kit: See on tööriistakomplekt, mis sisaldab erinevaid UI-komponente ja mustreid, mida saab kasutada disainiprotsessis. UI-kit võib sisaldada ka visuaalseid elemente, nagu ikoonid ja illustratsioonid, ning see on sageli saadaval erinevates disainitarkvarades, nagu Sketch või Figma."
+Siin [link.](https://medium.com/@rushabhpathak/design-system-design-library-and-ui-kit-what-makes-them-different-fdf06efc98a1)  
+
 ## Dokumentatsioon ja komponendid
 
 Dokumentatsioon aitab:
@@ -81,7 +91,7 @@ Dokumentatsioon aitab:
 
 ### Storybook – dokumentatsiooni standard
 
-Storybook on muutunud UI komponentide arenduse ja dokumentatsiooni standardiks, pakkudes:
+[Storybook](https://storybook.js.org/) on muutunud UI komponentide arenduse ja dokumentatsiooni standardiks, pakkudes:
 - Isoleeritud arenduskeskkonda komponentide loomiseks
 - Interaktiivseid näiteid ja dokumentatsiooni
 - Automaatset testimist ja visuaalse regressiooni kontrolli
@@ -97,20 +107,10 @@ Storybook on muutunud UI komponentide arenduse ja dokumentatsiooni standardiks, 
 
 ### Dokumenteerimise alternatiivid
 
-1. Ladle
-2. MDX + Next.js
-3. Docusaurus
-4. Histoire
-5. Sandpack
-6. Nextra
+- Styleguidist
+- Histoire
+- Vitebook
 
-## UI-kitid
-Nüüd, kus on juttu olnud disainissüsteemidest ja komponentide teekidest, jääb veel küsimus – mis on UI-kit?  
-Tegelikult on mõneti kõik need kolm kokku langevad – paljud disainissüsteemid sisaldavad ka juba komponentide teeke ja UI-kit iseenesest võiks olla defineeritud sama moodi kui komponentide teek, ehk komplekt valmis disainitud komponente, stiilie ja tookeneid. Endale on mulle silma jäänud, et UI-kit on kasutusel pigem disainis, nt Figma failis loodud komponentide kogum. Leidsin ühe artikli, kus kirjeldatakse asja nõnda:  
-"Disainisüsteem: See on terviklik juhend, mis sisaldab reegleid, põhimõtteid ja tööriistu, et tagada ühtne ja järjepidev disain kogu toote või brändi ulatuses. See hõlmab stiilijuhendeid, värvipalette, tüpograafiat ja muid visuaalseid elemente.  
-Komponentide teek: See on kogum taaskasutatavaid UI-komponente, nagu nupud, vormid ja kaardid, mis on loodud vastavalt disainisüsteemi juhistele. Komponentide teek aitab arendajatel ja disaineritel kiiresti ja tõhusalt luua kasutajaliideseid.  
-UI-kit: See on tööriistakomplekt, mis sisaldab erinevaid UI-komponente ja mustreid, mida saab kasutada disainiprotsessis. UI-kit võib sisaldada ka visuaalseid elemente, nagu ikoonid ja illustratsioonid, ning see on sageli saadaval erinevates disainitarkvarades, nagu Sketch või Figma."
-Siin [link.](https://medium.com/@rushabhpathak/design-system-design-library-and-ui-kit-what-makes-them-different-fdf06efc98a1)
 
 ## Kokkuvõte
 
