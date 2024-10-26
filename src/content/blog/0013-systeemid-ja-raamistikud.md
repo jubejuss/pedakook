@@ -124,4 +124,4 @@ Dokumentatsioon aitab:
 Modernne veebirakenduste arendus liigub üha enam paindlike ja kombineeritud lahenduste poole. Traditsioonilised CSS raamistikud arenevad utiliidi-põhisteks, komponentide teegid muutuvad "headless" suunas ja hübriidsüsteemid pakuvad parimat mõlemast maailmast. Oluline on valida lahendus, mis sobib projekti vajadustega ja meeskonna oskustega.
 
 *Illustratsioon: Midjourney  
-Viip: "an front-end developer in front of computer drawn with bold, expressive lines typical of comic art: Style elements. He is coding and drinking hot choclad inthe same time, he is happy."* 
+Viip: "an front-end developer in front of a computer drawn with bold, expressive lines typical of comic art style elements. He is coding and drinking hot chocolate at the same time, he is happy."*
