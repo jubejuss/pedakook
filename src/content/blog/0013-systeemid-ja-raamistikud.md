@@ -95,7 +95,9 @@ Dokumentatsioon aitab:
 - Isoleeritud arenduskeskkonda komponentide loomiseks
 - Interaktiivseid näiteid ja dokumentatsiooni
 - Automaatset testimist ja visuaalse regressiooni kontrolli
-- Head koostööd disainerite ja arendajate vahel
+- Head koostööd disainerite ja arendajate vahel  
+
+Eelpool mainitud Chakra UI-teek on näiteks kasutanud Storybooki: [https://storybook.chakra-ui.com/](https://storybook.chakra-ui.com/)
 
 ### Dokumentatsiooni sisu
 

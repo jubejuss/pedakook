@@ -59,19 +59,25 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	/* 
+	 * clamp() sets a responsive font size that:
+	 * - Has a minimum size of 1rem (16px)
+	 * - Scales fluidly based on viewport width (8vw = 8% of viewport width)
+	 * - Has a maximum size of 3.052em (~49px)
+	 */
+	font-size: clamp(1rem, 8vw, 3.052em);
 }
 h2 {
-	font-size: 2.441em;
+	font-size: clamp(1rem, 6vw, 2.441em);
 }
 h3 {
-	font-size: 1.953em;
+	font-size: clamp(1rem, 4.5vw, 1.953em);
 }
 h4 {
-	font-size: 1.563em;
+	font-size: clamp(1rem, 3.5vw, 1.563em);
 }
 h5 {
-	font-size: 1.25em;
+	font-size: clamp(1rem, 2.5vw, 1.25em);
 }
 strong,
 b {
