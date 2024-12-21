@@ -7,13 +7,15 @@ heroImageAlt: 'TArkvaraarenduse õpetaja räägib tahvli ees'
 slug: 'tarkvaraarenduse-opetamine'
 ---
 
-Tarkvaraarendus algajatele: Kriitiline pilk ja lahendused järgmiseks aastaks
+**Tarkvaraarendus algajatele: Kriitiline pilk ja lahendused järgmiseks aastaks**
 
-Kui alustasin "Sissejuhatus tarkvaraarendusse" kursuse ettevalmistamist, ei teadnud ma väga täpselt, mida pidin tegema või kuidas programmi üles ehitada. Seega lootsin uurida õppijate vajadusi ja täiendada kursust vastavalt sellele, mida näen – mida näen, et on vaja või kuidas on vaja. Tagantjärele vaadates tundub, et sellest lähenemisest tulid õppetöö alguses ka teatud struktureerimatus, ning  puudus seega ka kindel raamistik, mis oleks aidanud seda kursust struktureerida. 
+Kui alustasin "Sissejuhatus tarkvaraarendusse" kursuse ettevalmistamist, ei teadnud ma väga täpselt, mida pidin tegema või kuidas programmi üles ehitada. Seega lootsin uurida õppijate vajadusi ja täiendada kursust vastavalt sellele, mida näen – mida näen, et on vaja või kuidas on vaja.  
 
-Kursus oli suunatud Rakenduinformaatika eriala esmakursuslastele, samas enamik neist pole tugeva IT-taustaga, vaid alles teevad esimesi samme selles vallas. Kuid on ka neid, kel tarkvaraarendusest teadmises süvitsi või lausa töötavad juba sel alal. Tegelikult ei teadnud ma, mida pidin tegema või kuidas üldse midagi teha. Pigem plaanisin alustada uurivalt ja täiendada õppekava vastavalt sellele, mida näen.
+Tagantjärele vaadates tundub, et sellest lähenemisest tulid õppetöö alguses ka teatud struktureerimatus, ning  puudus seega ka kindel raamistik, mis oleks aidanud seda kursust struktureerida. 
 
-Käesolev artikkel vaatleb kriitiliselt kursuse jooksul tehtut, toob esile selle kitsaskohad ja pakub välja võimalikud lahendused tuleviku jaoks.
+Kursus oli suunatud Rakendusinformaatika eriala esmakursuslastele. Enamik neist pole tugeva IT-taustaga, vaid alles teevad esimesi samme selles vallas. kuid on ka neid, kel tarkvaraarendusest teadmised süvitsi või lausa töötavad sel alal. Tegelikult ei teadnud ma, mida pidin tegema või kuidas üldse midagi teha. Pigem plaanisin alustada uurivalt ja täiendada õppekava vastavalt sellele, mida näen.
+
+**Käesolev artikkel vaatleb kriitiliselt kursuse jooksul tehtut, toob esile selle kitsaskohad ja pakub välja võimalikud lahendused tuleviku jaoks.**
 
 ## Mida me ei teinud?
 
