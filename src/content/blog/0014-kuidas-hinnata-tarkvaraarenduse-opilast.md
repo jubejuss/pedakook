@@ -65,7 +65,7 @@ Seminarides võiks kasutada rohkem struktureeritud grupitöid, kus igaühel on k
 
 Seminarides võiks rakendada rohkem interaktiivseid mänge ja arutelusid, mis kaasaksid ka vaiksemad õppurid. Millised konkreetsed mängud ja harjutused sobiksid? Kuidas motiveerida vaiksemaid õppureid aktiivselt osalema? Lisaks saaks kasutada tehnoloogilisi lahendusi, nagu anonüümne välja pakutud ideede hindamine, kuid kas see oleks piisav, et kõiki kaasata? Võiks kaaluda ka tagasiside ankeete, et saada paremat pilti nende osalusvalmidusest.
 
-### 4. **Commit-ide kvaliteedi hindamine**
+### 4. ***Commitite* kvaliteedi hindamine**
 
 Regulaarne ja sisukas *commitimine* võiks olla hindamiskriteerium, kuid selle mõju õppijate motivatsioonile ja arengule tuleb hoida "radaril". Selle asemel, et rõhuda ainult formaalsele mõõdikule, võiksin uurida, kuidas *commitimine* aitab kaasa õppija tegelikule oskuste kasvule. Kas tunnustus, nagu "parima *commiti*" auhind, võiks luua positiivse õhkkonna või pigem soodustab liigset konkurentsi? Peaks proovima ka leida rohkem toetava ja arutleva õpikeskkonna loomisele, kus *commitid* peegeldavad õppija arengut, mitte vaid nõuetele vastamist.
 
