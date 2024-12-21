@@ -80,23 +80,28 @@ Illustratsioon: Midjourney
 Viip:  
 *Illustration for Teaching Software Development (Sketchbook Style)*  
 *Main Subject:*  
-• *A teacher (let’s call them Alex) standing confidently with a laptop under one arm and gesturing toward a chalkboard or digital screen filled with code snippets and diagrams. The teacher should have a casual, approachable look--perhaps glasses, a hoodie, or a T-shirt with a programming pun.*  
+- *A teacher (let’s call them Alex) standing confidently with a laptop under one arm and gesturing toward a chalkboard or digital screen filled with code snippets and diagrams. The teacher should have a casual, approachable look--perhaps glasses, a hoodie, or a T-shirt with a programming pun.*  
+
 *Sketch Elements:*  
-• *Use loose, gestural pencil lines for the main drawing, keeping some areas detailed (like the teacher’s face) and others rough (like their shoes or background items).*  
-• *Add cross-hatching and shading to the laptop, chalkboard, and teacher’s stance for depth.*  
+- *Use loose, gestural pencil lines for the main drawing, keeping some areas detailed (like the teacher’s face) and others rough (like their shoes or background items).*  
+- *Add cross-hatching and shading to the laptop, chalkboard, and teacher’s stance for depth.*  
+
 *Scatter margin notes around the main drawing, such as:*  
-• *"Debugging guru."*  
-• *"Explains recursion with cookies."*  
-• *"Git master."*  
-• *Include mistakes like light eraser marks, faint smudges, and overlapping lines for authenticity.*  
+- *"Debugging guru."*  
+- *"Explains recursion with cookies."*  
+- *"Git master."*  
+- *Include mistakes like light eraser marks, faint smudges, and overlapping lines for authenticity.*  
+
 *Small Doodles:*  
-• *Tiny sketches of a bug (representing debugging), a computer with "" on the screen, and a coffee mug with "Ctrl+Alt+Del" on it.*  
-• *A flowchart with arrows labeled "Input → Process → Output."*  
-• *Sticky notes with words like "Sprint planning" and "Code review."*  
+- *Tiny sketches of a bug (representing debugging), a computer with "" on the screen, and a coffee mug with "Ctrl+Alt+Del" on it.*  
+- *A flowchart with arrows labeled "Input → Process → Output."*  
+- *Sticky notes with words like "Sprint planning" and "Code review."*  
+
 *Color Splashes:*  
-• *Minimal watercolor-like splashes of color: green on the chalkboard, yellow on sticky notes, and blue highlighting Alex’s laptop.*  
+- *Minimal watercolor-like splashes of color: green on the chalkboard, yellow on sticky notes, and blue highlighting Alex’s laptop.*  
 *Background:*  
-• *An off-white or textured paper background with visible pencil strokes. A faint grid pattern might suggest a coding notebook.*  
+- *An off-white or textured paper background with visible pencil strokes. A faint grid pattern might suggest a coding notebook.*  
+
 *Extra Scene:*  
-• *In one corner, sketch a small scene of students collaborating on a project, represented as stick figures around a large screen displaying code. --ar 3:2*
+- *In one corner, sketch a small scene of students collaborating on a project, represented as stick figures around a large screen displaying code. --ar 3:2*
 
