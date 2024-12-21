@@ -44,7 +44,7 @@ Kuigi *code review* protsess näitas edusamme, ilmnes ka siin kitsaskohti. Refle
 
 ## Võtmekohad hindamises
 
-Tagasiside näitas, et need, kes esitasid töid regulaarselt ja hajutasid oma pingutused kogu semestri peale, saavutasid paremaid tulemusi. Need, kes jätsid kõik viimasele minutile, nende tulemused olid halvemad, arusaam arendusest ebaselgem.
+Kogu protsessi analüüs näitas, et need, kes esitasid töid regulaarselt ja hajutasid oma pingutused kogu semestri peale, saavutasid paremaid tulemusi. Need, kes jätsid kõik viimasele minutile, nende tulemused olid halvemad, arusaam arendusest ebaselgem.
 
 Hindamise osas ilmnes mitmeid probleeme. *Commitite* regulaarsuse ja kvaliteedi rõhutamine jäi ebapiisavaks, samuti polnud hinnangutes alati selge, kuidas õppija arengut mõõdetakse. Tulevikus peaks hindamisskeem olema läbipaistvam ja keskenduma rohkem õppimisele kui pelgalt tulemusele – protsessi olulisus peaks õppijatele selgemaks saama.
 
