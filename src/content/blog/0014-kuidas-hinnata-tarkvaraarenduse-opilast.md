@@ -103,5 +103,7 @@ Viip:
 - *An off-white or textured paper background with visible pencil strokes. A faint grid pattern might suggest a coding notebook.*  
 
 *Extra Scene:*  
-- *In one corner, sketch a small scene of students collaborating on a project, represented as stick figures around a large screen displaying code. --ar 3:2*
+- *In one corner, sketch a small scene of students collaborating on a project, represented as stick figures around a large screen displaying code.*  
+
+*--ar 3:2*
 
