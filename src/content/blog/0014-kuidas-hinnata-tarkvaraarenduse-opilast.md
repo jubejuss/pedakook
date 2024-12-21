@@ -77,7 +77,8 @@ Tulevikus tahan enam rakendada iteratiivset lähenemist, kus õppijad saavad tä
 Kokkuvõttes oli "Sissejuhatus tarkvaraarendusse" praktilise suunitlusega, kuid kannatas vähemalt alguses selgelt läbimõeldud struktuuri puudumise all. Õppurite vajaduste ja tasemete mitmekesisus tõi esile vajaduse kohandada lähenemisviise ning arendada paremaid toetusmehhanisme. Tulevikuplaanid peavad keskenduma süsteemsemale kavandamisele, õppurite aktiivse kaasamise suurendamisele ja nende iseseisvuse soodustamisele. Paras väljakutse on luua kursus, mis on samaaegselt paindlik, struktureeritud ja vastab erinevate õppijate ootustele.
 
 Illustratsioon: Midjourney  
-Viip: *Illustration for Teaching Software Development (Sketchbook Style)*  
+Viip:  
+*Illustration for Teaching Software Development (Sketchbook Style)*  
 *Main Subject:*  
 • *A teacher (let’s call them Alex) standing confidently with a laptop under one arm and gesturing toward a chalkboard or digital screen filled with code snippets and diagrams. The teacher should have a casual, approachable look--perhaps glasses, a hoodie, or a T-shirt with a programming pun.*  
 *Sketch Elements:*  
