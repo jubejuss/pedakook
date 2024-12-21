@@ -1,9 +1,9 @@
 ---
 title: "Kuidas hinnata tarkvaraarenduse õpilast?"
-description: "Kuidas hinnata Sissejuhatus tarkvaraarendusse õliõpilast, kes ei tea tarkvaraarendusest mitte midagi"
+description: "Kuidas hinnata Sissejuhatus tarkvaraarendusse üliõpilast, kes ei tea tarkvaraarendusest mitte midagi"
 pubDate: 'Dec 21 2024 17:37:00'
 heroImage: '/computer-sciences-teatcher.webp'
-heroImageAlt: 'TArkvaraarenduse õpetaja räägib tahvli ees'
+heroImageAlt: 'Tarkvaraarenduse õpetaja räägib tahvli ees'
 slug: 'tarkvaraarenduse-opetamine'
 ---
 
