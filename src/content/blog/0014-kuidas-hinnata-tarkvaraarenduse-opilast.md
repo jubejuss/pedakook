@@ -20,7 +20,7 @@ Kursus oli suunatud Rakendusinformaatika eriala esmakursuslastele. Enamik neist 
 ## Mida me ei teinud?
 
 Me ei korraldanud tuima teoreetilist loengusarja teemal, mis on tarkvara arendus.  
-Vähemalt ei plaaninud sellist, vaid tegime suuremas osas praktilise, grupi- ja individuaalsete tööde ja aruteludega seminaride sarja, mille vahel olid kodutööd. Võibolla välja kukkus nii, eks tulevikus kuule seda üliõpilastelt. Eesmärk oli näidata, et tarkvara arendus ei võrdu koodimine, vaid on laiem tervik, hõlmates toote loomist, disaini, projekti juhtimist jne.
+Vähemalt ei plaaninud sellist, vaid tegime suuremas osas praktilise, grupi- ja individuaalsete tööde ja aruteludega seminaride sarja, mille vahel olid kodutööd. Võibolla välja kukkus teisiti, eks tulevikus kuule seda üliõpilastelt. Eesmärk oli näidata, et tarkvara arendus ei võrdu koodimine, vaid on laiem tervik, hõlmates toote loomist, disaini, projekti juhtimist jne.
 
 ## Kursuse alustalad ja õpikeskkond
 
