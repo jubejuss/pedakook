@@ -2,8 +2,8 @@
 title: "Kui juba, siis juba – ehk PostCSS Sassi asemel"
 description: "Kuigi Bootstrapis on veel Sass sees, siis hetkel kasutavad moodsad arendused pigem puhast CSS-i. See siiski vajab veel mõnd vidinat"
 pubDate: 'March 14 2025 16:50:00'
-heroImage: '/computer-sciences-teatcher.webp'
-heroImageAlt: 'hirmul-arendaja.webp'
+heroImage: '/hirmul-arendaja.webp'
+heroImageAlt: 'hirmul-arendaja'
 slug: 'postcss-algajale'
 ---
 
