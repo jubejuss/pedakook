@@ -9,11 +9,11 @@ slug: 'postcss-algajale'
 
 **PostCSS: Lihtne setup algajale**
 
-Pikka aega olid CSS-i ladusamaks kirjutamiseks kasutusel preprotsessorid, ehk  abivahendid, mis lubasid kasutada keerukmaid lahendusi nagu muutujad, funktsioonid, mixinid (eelkomponeeritud) jms keerukad lahendused, mis võimaldasid kirjutada CSS-i kiiremini. Tuntumad abibahendid neist SASS ja LESS.
+Pikka aega olid CSS-i ladusamaks kirjutamiseks kasutusel preprotsessorid, ehk  abivahendid, mis lubasid kasutada keerukmaid lahendusi nagu muutujad, funktsioonid, mixinid jms keerukad lahendused, mis võimaldasid kirjutada CSS-i kiiremini. Tuntumad abivahendid neist SASS ja LESS.
 
 CSS on aga täiustunud, nt saab kaasaegses CSS-is kasutada muutujaid, pesastamist (nesting) ja peagi ka funktsioone. Selle arengu tagajärjel on taas populaarsemaks muutunud css-i kasutamine ilma eeltöötlejateta. Näiteks kasutavad enamus moodsamatest või uuematest front-end teekidest kaasajal Tailwind raamistikku, mis omakorda baseerub puhtal css-il.
 
-Siin on aga mõned agad – endiselt ei saa puhta css-iga kõiki nõudeid automatiseerida ja seetõttu tuleb kasutada mõningaid abivahendeid.
+Siin on aga mõned agad – endiselt ei saa puhta css-iga kõiki nõudeid automatiseerida ja seetõttu tulebki mängu selline lahendus nagu PostCSS.
 
 ## PostCSS
 
@@ -81,7 +81,6 @@ module.exports = {
 
 See lihtne seadistus võimaldab:
 - Kasutada CSS-i pesastamist (nesting), mis on sarnane Sassi süntaksile
-- Kasutada tuleviku CSS-i omadusi
 - Lisada automaatselt vajalikke vendor-prefikseid
 
 ### 3. Browserslist seadistus
@@ -392,13 +391,9 @@ Next.js toetab samuti PostCSS-i. Lisa `postcss.config.js` fail projekti juurkata
 
 ## Kokkuvõte
 
-PostCSS on paindlik tööriist, mis laseb sul kasutada tuleviku CSS-i omadusi juba praegu. Lihtne setup on kiire teha, aga annab sulle ligipääsu paljudele kasulikele funktsioonidele.
-
-Kui oled algaja, soovitan alustada lihtsa seadistusega, mida siin kirjeldasin, ja siis järk-järgult lisada uusi pistikprogramme vastavalt vajadusele. Nii saad PostCSS-i võimalusi kasutada, ilma et peaksid kohe alguses liiga palju õppima.
-
-Puhta CSS-i ja PostCSS-i kombinatsioon on hea viis kirjutada koodi, mis töötab kõigis brauserites ja kasutab uusimaid võimalusi.
+Tulevikus saavad need võimalused ilmselt CSS-i sees olevaks, aga hetkel aitab PostCSS. PostCSS muudab töö CC-iga tõhusamaks. 
 
 *Illustratsioon: Midjourney  
 Viip:  
-"front-end developer/student in front of computer, waving hands, are very creepy, untrustfull, looking over the shoulders, drawn with bold, expressive lines typical of comic art: Style elements. --ar 16:9 --v 6.1*
+"front-end developer/student in front of computer, waving hands, are very creepy, untrustfull, looking over the shoulders, drawn with bold, expressive lines typical of comic art: Style elements. --ar 16:9 --v 6.1* 
 
